@@ -8,10 +8,10 @@ Os detalhes levantados nesse processo foram consolidados na forma de pessoas e h
 
 As pessoas levantadas durante o processo de compreensão do problema são apresentadas nas figuras que se seguem.
 
-![Alt text](<Larissa A.png>)
-![Alt text](<Igor M.png>)
-![Alt text](<Renato N.png>)
-![Alt text](<Bianca C.png>)
+![Alt text](<Larissa A-1.png>)
+![Alt text](<Igor M-1.png>)
+![Alt text](<Renato N-1.png>)
+![Alt text](<Bianca C-1.png>)
 
 ## Histórias de Usuários
 
