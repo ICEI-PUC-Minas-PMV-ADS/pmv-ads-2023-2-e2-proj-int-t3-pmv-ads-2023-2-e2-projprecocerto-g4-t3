@@ -23,15 +23,10 @@ O objetivo com esse projeto visa a atualização da aplicação já criada. Apli
 
 🛒 Maior comodidade, uma vez que os supermercados realizaram as entregas.
 
-
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Observa-se uma grande dificuldade do cliente em encontrar o melhor preço para os produtos que precisa comprar nos supermercados, fazendo com que comprem em diversos estabelecimentos diferentes para obter o melhor custo para suas compras. Segundo dados da Associação Brasileira de Supermercados, os brasileiros irão gastar quase 4% a mais com compras de mercado em 2023. De acordo com dados da associação, o valor da cesta de 35 produtos de largo consumo encerrou 2022 com alta de 7,69% (fonte: ABRAS). No Brasil a inflação neste mês sofreu mais um aumento, o índice foi atualizado para 5,6% no acumulado de 12 meses até fevereiro de 2023, na comparação com a projeção de dezembro de 2022. Sofrendo um aumento de 0,07% para o IPCA. No mundo a projeção é que a inflação fique em 6,6%, segundo dados do FMI.
+Para isso, é necessária uma aplicação para auxiliar a busca por menores preços, que não faça o cliente perder tempo com pesquisas de preços, facilitando a vida dos clientes de menor poder econômico, ou que querem ter um maior controle do orçamento nas compras.
 
 ## Público-Alvo
 
