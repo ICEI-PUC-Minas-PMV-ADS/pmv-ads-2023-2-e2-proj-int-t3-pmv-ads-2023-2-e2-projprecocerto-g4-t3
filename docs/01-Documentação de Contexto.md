@@ -16,8 +16,11 @@ O objetivo com esse projeto visa a atualização da aplicação já criada. Apli
 ## Novos Objetivos Específicos:
 
 🛒 Entregar para o usuário uma lista mais ampla de mercados com menor preço.
+
 🛒 Modernizar todo o processo de compra do usuário que vai ao mercado.
+
 🛒 Otimizar e flexibilizar o dia a dia do usuário.
+
 🛒 Maior comodidade, uma vez que os supermercados realizaram as entregas.
 
 
