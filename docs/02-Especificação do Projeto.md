@@ -15,12 +15,18 @@ As pessoas levantadas durante o processo de compreensão do problema são aprese
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das histórias das pessoas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Larissa | Desejo controlar os gastos ao fazer as compras | Para economizar nas compras |
+|Larissa |Desejo um jeito fácil e barato de fazer as suas compras mensais | Para gastar menos sem perder tempo |
+|Igor | Desejo gastar menos nas compras | Por que não ganha tão bem |
+|Igor | Desejo ir menos de mercado em mercado todo mês | Por que está cansada demais para isso |
+|Renato | Desejo ter uma maneira mais fácil de fazer as compras | Por que acha estressante sair de casa com a esposa para lugares lotados |
+|Renato | Desejo um site e aplicativo para saber onde gastaria menos | Para que consiga realizar suas compras sem estresse de forma econômica |
+|Bianca | Desejo saber onde as minhas compras no total ficariam mais baratas | Para ir direto no mercado mais barato |
+|Bianca | Desejo saber onde o produto x tem o melhor preço | Para não perder tempo pesquisando preço |
 
 ## Requisitos
 
