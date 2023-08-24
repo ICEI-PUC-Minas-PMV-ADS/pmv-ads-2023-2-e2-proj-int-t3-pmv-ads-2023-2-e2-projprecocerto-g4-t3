@@ -11,12 +11,15 @@ Desenvolver um aplicativo que permita aos consumidores comparar preços de produ
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo com esse projeto visa a atualização da aplicação já criada. Aplicação essa que exibe para o usuário devidamente cadastrado na plataforma, com base nas informações de produtos que ele inserir no sistema, fazer a comparação de preços em diferentes estabelecimentos de supermercados próximos ou não à residência do usuário exibindo os resultados em tela, com o preço dos itens inseridos, bem como o valor final da compra. Ou seja, a aplicação mostra em qual supermercado a compra ficará mais barata naquele dia, para que ele possa efetuar a compra pela própria plataforma sendo redirecionado ao site do mercado.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+## Novos Objetivos Específicos:
+
+🛒 Entregar para o usuário uma lista mais ampla de mercados com menor preço.
+🛒 Modernizar todo o processo de compra do usuário que vai ao mercado.
+🛒 Otimizar e flexibilizar o dia a dia do usuário.
+🛒 Maior comodidade, uma vez que os supermercados realizaram as entregas.
+
 
 ## Justificativa
 
@@ -29,13 +32,6 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Embora qualquer usuário desse sistema possa se beneficiar com os ganhos de uma busca refinada e autônoma de preços, famílias com renda entre R$1300,00 a R$6000,00 sentirão mais os benefícios de uma economia no orçamento com a alimentação.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres entre 25 e 55 anos que trabalham e fazem uso frequente de computadores e dispositivos móveis para comparar preços e buscar promoções.
