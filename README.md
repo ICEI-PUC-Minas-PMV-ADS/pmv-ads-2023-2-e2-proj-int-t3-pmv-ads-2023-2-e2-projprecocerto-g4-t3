@@ -1,23 +1,25 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`ADS-2023-E2`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`Segundo Semestre (E2)`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Projeto que está sendo desenvolvido, é uma aplicação interativa para busca de preços mais justos de uma lista de compra em diferentes Supermercados, próximo ao usuário do App.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Eduardo Gonçalves Sena
+* Felipe Joseph S de Almeida
+* Gabriel Yan Moreira Laignier
+* Pedro Henrique Gomes de Souza
+* Simon Henrique Souza C
+* Stefany Barbosa Ribeiro
 
 ## Orientador
 
-* Nome completo do professor 1
+* MSc. José Wilson da Costa.
 
 ## Instruções de utilização
 
