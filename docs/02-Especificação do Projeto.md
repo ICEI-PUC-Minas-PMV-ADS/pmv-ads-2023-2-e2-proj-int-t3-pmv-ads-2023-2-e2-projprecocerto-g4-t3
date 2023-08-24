@@ -53,25 +53,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+| **Requisito Não Funcional** | **Descrição**                                                                                                                                                                | **Classificação** |
+|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| RNF-001                  | Publicação em Ambiente Online: O site deve ser disponibilizado em um ambiente acessível publicamente na Internet, podendo ser hospedado em plataformas como Repl.it, GitHub Pages ou Heroku.                  | MÉDIA             |
+| RNF-002                  | Segurança contra Malwares: O site deve ser robustamente protegido contra ameaças como malwares e trojans, assegurando a integridade e confiabilidade das operações.                   | ALTA              |
+| RNF-003                  | Compatibilidade com Navegadores: O site deve ser compatível com os principais navegadores utilizados no mercado, incluindo Google Chrome, Firefox e Microsoft Edge, garantindo uma experiência consistente para os usuários. | ALTA              |
+| RNF-004                  | Escalabilidade de Desempenho: O site deve ser capaz de suportar um elevado volume de usuários simultâneos sem comprometer o desempenho, mantendo sua eficiência mesmo em situações de alta demanda.  | ALTA              |
+| RNF-005                  | Disponibilidade Contínua: O site deve permanecer operacional 24 horas por dia, todos os dias da semana, garantindo sua acessibilidade constante aos usuários.                          | ALTA              |
+| RNF-006                  | Tecnologias de Desenvolvimento: O site será desenvolvido utilizando as linguagens HTML5 e JavaScript, garantindo a utilização de tecnologias modernas e amplamente aceitas.        | ALTA              |
+| RNF-007                  | Responsividade em Dispositivos Móveis: O site deverá ser responsivo, proporcionando uma experiência adequada de visualização em dispositivos móveis, otimizando a usabilidade nesses contextos.  | MÉDIA             |
 
 ## Restrições
 
