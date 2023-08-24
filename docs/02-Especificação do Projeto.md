@@ -46,10 +46,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| **Requisito Funcional** | **Descrição**                                                                                                                                                                | **Classificação** |
+|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| RF-001                 | O sistema deve permitir o login de administradores autorizados com credenciais únicas    | Alta             |
+| RF-002                 | O sistema deve possibilitar a visualização e edição das informações das contas de usuário, incluindo nome, e-mail, papel no sistema, e status de ativação    | Média              |
+| RF-003                 | O sistema deve permitir a criação, visualização, edição e exclusão de informações de clientes, incluindo nome, endereço, e-mail e telefone    | Alta              |
+| RF-004                 | O sistema deve possibilitar a gestão de produtos, permitindo adicionar, editar, remover e categorizar itens, além de especificar informações como nome, preço e descrição.    | Alta              |
+| RF-005                 | O sistema deve permitir a visualização das avaliações e opiniões dos usuários sobre supermercados e produtos, além de possibilitar a remoção de avaliações inadequadas.    | Baixa              |
 
 ### Requisitos não Funcionais
 
