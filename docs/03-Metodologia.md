@@ -58,6 +58,7 @@ Papel                | Responsável
 ***Product Owner***  | 
 ***Scrum Master***   | 
 ***Developers***     | 
+
 Apresente a divisão de papéis entre os membros do grupo.
 
 > **Links Úteis**:
