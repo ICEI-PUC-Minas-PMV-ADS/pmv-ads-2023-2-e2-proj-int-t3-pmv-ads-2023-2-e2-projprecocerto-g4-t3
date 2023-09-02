@@ -5,6 +5,16 @@
 
 Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
+## **Equipe de Trabalho**
+
+Os papéis *Scrum* foram estabelecidos da seguinte forma:
+
+Papel                | Responsável
+---------------------| -------------------------
+***Product Owner***  | 
+***Scrum Master***   | 
+***Developers***     | 
+
 *Sprint*   | Etapa da Disciplina                                         | Entregável/Artefato 
 ---------- | ----------------------------------------------------------- | -----------------
 1          | [Etapa 1 - Análise e Projeto de Sistemas de Software](https://pucminas.instructure.com/courses/156804/pages/etapa-1-orientacoes-para-implementacao-desta-etapa) | <ul><li>Definição do problema;</li><li>Proposta de solução;</li><li>Personas e Histórias de usuários</li><li>Requisitos e Restrições;</li><li>Diagrama de Casos de Uso;</li><li>Vídeo de 2 minutos sobre o problema e a solução proposta;</li><li>Documentação atualizada no Github;</li></ul>
