@@ -15,6 +15,26 @@ Papel                | Responsável
 ***Scrum Master***   | 
 ***Developers***     | 
 
+## **Ferramentas**
+
+O desenvolvimento deste projeto foi facilitado pelo uso das seguintes ferramentas:
+
+Finalidade                                          | Ferramenta
+--------------------------------------------------- |----------------------------- 
+Hospedagem do código-fonte                          | 
+Hospedagem da documentação                          | 
+Gerenciamento do projeto                            | 
+Criação dos *wireframes* e do *userflow* interativo | 
+Criação do *userflow* estático                      | 
+Comunicação assíncrona                              | *WhatsApp*
+Comunicação síncrona                                | *Microsoft Teams*
+Edição de código e texto                            | *Visual Studio Code*
+Servidor de hospedagem                              | 
+
+### ***Product Backlog***
+
+A priorização do *product backlog* foi realizada seguindo o cronograma do Projeto da disciplina. Portanto, cada etapa coincide com uma *sprint* e os entregáveis de cada etapa também são os entregáveis de cada *sprint*, conforme a tabela abaixo.
+
 *Sprint*   | Etapa da Disciplina                                         | Entregável/Artefato 
 ---------- | ----------------------------------------------------------- | -----------------
 1          | [Etapa 1 - Análise e Projeto de Sistemas de Software](https://pucminas.instructure.com/courses/156804/pages/etapa-1-orientacoes-para-implementacao-desta-etapa) | <ul><li>Definição do problema;</li><li>Proposta de solução;</li><li>Personas e Histórias de usuários</li><li>Requisitos e Restrições;</li><li>Diagrama de Casos de Uso;</li><li>Vídeo de 2 minutos sobre o problema e a solução proposta;</li><li>Documentação atualizada no Github;</li></ul>
