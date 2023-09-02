@@ -5,6 +5,14 @@
 
 Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
+*Sprint*   | Etapa da Disciplina                                         | Entregável/Artefato 
+---------- | ----------------------------------------------------------- | -----------------
+1          | [Etapa 1 - Análise e Projeto de Sistemas de Software](https://pucminas.instructure.com/courses/156804/pages/etapa-1-orientacoes-para-implementacao-desta-etapa) | <ul><li>Documentação do Projeto;</li><li>Especificação do Projeto;</li><li>Apresentação do Projeto.</li></ul>
+2          | [Etapa 2 - Projeto da solução](https://pucminas.instructure.com/courses/156804/pages/etapa-2-orientacoes-para-implementacao-desta-etapa) | <ul><li>Metodologia;</li><li>Projeto de Interface;</li><li>Arquitetura de Solução (opcional).</li></ul>
+3          | [Etapa 3 - Desenvolvimento da solução - Fase 1](https://pucminas.instructure.com/courses/156804/pages/etapa-3-orientacoes-para-implementacao-desta-etapa) | <ul><li>Template Padrão do Site;</li><li>Programação de Funcionalidades.</li></ul>
+4          | [Etapa 4 - Desenvolvimento da solução Fase 2](https://pucminas.instructure.com/courses/156804/pages/etapa-4-orientacoes-para-implementacao-desta-etapa) | <ul><li>Programação das demais Funcionalidades;</li><li>Plano de Testes de Software;</li><li>Registro de Testes de Software.</li></ul>
+5          | [Etapa 5 - Relatórios das avaliações e entrega da solução](https://pucminas.instructure.com/courses/156804/pages/etapa-5-orientacoes-para-implementacao-desta-etapa) | <ul><li>Implantação da Solução;</li><li>Apresentação do Projeto;</li><li>Vídeo de Demonstração da Solução.</li></ul>
+
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
