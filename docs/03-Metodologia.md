@@ -5,32 +5,6 @@
 
 Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
-## **Equipe de Trabalho**
-
-Os papéis *Scrum* foram estabelecidos da seguinte forma:
-
-Papel                | Responsável
----------------------| -------------------------
-***Product Owner***  | 
-***Scrum Master***   | 
-***Developers***     | 
-
-## **Ferramentas**
-
-O desenvolvimento deste projeto foi facilitado pelo uso das seguintes ferramentas:
-
-Finalidade                                          | Ferramenta
---------------------------------------------------- |----------------------------- 
-Hospedagem do código-fonte                          | 
-Hospedagem da documentação                          | [Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3)
-Gerenciamento do projeto                            | 
-Criação dos *wireframes* e do *userflow* interativo | 
-Criação do *userflow* estático                      | 
-Comunicação assíncrona                              | *WhatsApp*
-Comunicação síncrona                                | *Microsoft Teams*
-Edição de código e texto                            | *Visual Studio Code*
-Servidor de hospedagem                              | 
-
 ### ***Product Backlog***
 
 A priorização do *product backlog* foi realizada seguindo o cronograma do Projeto da disciplina. Portanto, cada etapa coincide com uma *sprint* e os entregáveis de cada etapa também são os entregáveis de cada *sprint*, conforme a tabela abaixo.
@@ -77,6 +51,13 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
+Os papéis *Scrum* foram estabelecidos da seguinte forma:
+
+Papel                | Responsável
+---------------------| -------------------------
+***Product Owner***  | 
+***Scrum Master***   | 
+***Developers***     | 
 Apresente a divisão de papéis entre os membros do grupo.
 
 > **Links Úteis**:
@@ -96,20 +77,16 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+O desenvolvimento deste projeto foi facilitado pelo uso das seguintes ferramentas:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
-
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+Finalidade                                          | Ferramenta
+--------------------------------------------------- |----------------------------- 
+Hospedagem do código-fonte                          | 
+Hospedagem da documentação                          | [Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3)
+Gerenciamento do projeto                            | 
+Criação dos *wireframes* e do *userflow* interativo | 
+Criação do *userflow* estático                      | 
+Comunicação assíncrona                              | *WhatsApp*
+Comunicação síncrona                                | *Microsoft Teams*
+Edição de código e texto                            | *Visual Studio Code*
+Servidor de hospedagem                              | 
