@@ -55,9 +55,10 @@ Os papéis *Scrum* foram estabelecidos da seguinte forma:
 
 Papel                | Responsável
 ---------------------| -------------------------
-***Product Owner***  | 
-***Scrum Master***   | 
-***Developers***     | 
+***Product Owner***  | ???
+***Scrum Master***   | ???
+***Developers***     | Simon Henrique Souza C, Stefany Barbosa Ribeiro, Pedro Henrique Gomes de Souza
+
 
 Apresente a divisão de papéis entre os membros do grupo.
 
