@@ -53,7 +53,7 @@ Criação dos *wireframes* e do *userflow* interativo | *Figma*                 
 Comunicação assíncrona                              | *WhatsApp*                   |
 Comunicação síncrona                                | *Microsoft Teams*            |
 Edição de código e texto                            | *Visual Studio Code*         |
-Servidor de hospedagem                              | *????*                       |
+Servidor de hospedagem                              | *Github*                     |
 
 ## Controle de Versão
 
@@ -64,9 +64,9 @@ foi utilizado para hospedagem do repositório.
 O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
 - `dev`: versão de desenvolvimento do software
+
+![git](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/74187849/c2f9b263-7836-4317-af04-615dfa715e0d)
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
