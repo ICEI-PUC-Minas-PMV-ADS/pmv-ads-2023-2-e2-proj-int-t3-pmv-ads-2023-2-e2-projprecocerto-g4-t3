@@ -1,9 +1,7 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
 ### ***Product Backlog***
 
@@ -25,36 +23,37 @@ Os papéis *Scrum* foram estabelecidos da seguinte forma:
 
 Papel                | Responsável
 ---------------------| -------------------------
-***Product Owner***  | ???
-***Scrum Master***   | ???
-***Developers***     | Simon Henrique Souza C, Stefany Barbosa Ribeiro, Pedro Henrique Gomes de Souza
+***Product Owner***  | Felipe Joseph S de Almeida
+***Scrum Master***   | Eduardo Gonçalves Sena
+***Developers***     | Simon Henrique Souza C, Stefany Barbosa Ribeiro, Pedro Henrique Gomes de Souza, Gabriel Yan Moreira Laignier
 
 ### Processo
 
 Para a organização e distribuição das tarefas do projeto, o grupo esta utilizando o GitHub, seguindo os critérios de:
-- `Product Backlog`: recebe as tarefas a serem trabalhadas e presenta o Backlogdo produto. Todas as atividades identificadas no decorrer do projeto são incorporadas a esta lista.
-- `To Do`: esta lista representa o Sprint Backlog que está sendo trabalhado.
-- `In progress`: lista das tarefas iniciadas.
-- `Done`: nesta lista são colocadas as tarefas finalizadas e as que passaram pelos testes e controle de qualidade.
+
+- `Backlog`: todas as atividades que devem ser realizadas no projeto, desde a documentação até o desenvolvimento final do site.
+- `To do (atualizado a cada vencimento de prazo)`: Apresenta o prazo da sprint atual e o que foi definido previamente para ser  realizado até o final da mesma.
+- `In progress`: O que está sendo feito.
+- `Problems`: Correção de bugs e problemas.
+- `In Review (atualizado semanalmente)`: O que precisa ser revisado junto ao orientador.
+- `Done`: Tudo o que foi finalizado.
 
 #### Backlog em ??/??/????:
-
 
 ### Ferramentas
 
 O desenvolvimento deste projeto foi facilitado pelo uso das seguintes ferramentas:
 
-Finalidade                                          | Ferramenta                   | Link de acesso
---------------------------------------------------- |----------------------------- | -----------------------------
-Hospedagem do código-fonte                          |                              |
+Finalidade                                          | Ferramenta                   |
+--------------------------------------------------- |----------------------------- |
+Hospedagem do código-fonte                          | *Github*                     |
 Hospedagem da documentação                          | *Github*                     |
 Gerenciamento do projeto                            | *Github*                     |
 Criação dos *wireframes* e do *userflow* interativo | *Figma*                      |
-Criação do *userflow* estático                      |                              | 
 Comunicação assíncrona                              | *WhatsApp*                   |
 Comunicação síncrona                                | *Microsoft Teams*            |
 Edição de código e texto                            | *Visual Studio Code*         |
-Servidor de hospedagem                              |                              |
+Servidor de hospedagem                              | *????*                       |
 
 ## Controle de Versão
 
