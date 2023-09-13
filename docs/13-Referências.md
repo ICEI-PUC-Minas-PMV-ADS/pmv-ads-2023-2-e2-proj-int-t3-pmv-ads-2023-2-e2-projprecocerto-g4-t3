@@ -1,9 +1,5 @@
 # Referências
 
-https://br.freepik.com - Para imagens da capa e dos slides.
+Freepik: Crie excelentes designs mais rapidamente. Transforme ideias em designs incríveis com vetores, fotos, vídeos e mockups de alta qualidade. Disponível em: https://br.freepik.com . Acesso em: 24 de Agosto. 2023.
 
-https://astah.net/downloads - Download do aplicativo para criar o diagrama de caso de uso.
-
-https://lucid.app - Para criar o fluxograma.
-
-www.flaticon.com - Para criar o user flow.
+Access 11.6M+ vector icons & stickers. Download Free Icons and Stickers for your projects. Images made by and for designers in PNG, SVG, EPS, PSD and CSS formats. Disponível em: www.flaticon.com . Acesso em: 09 de Setembro. 2023.
