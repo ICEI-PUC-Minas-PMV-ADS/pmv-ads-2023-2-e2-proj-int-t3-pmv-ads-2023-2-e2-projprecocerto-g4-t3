@@ -46,6 +46,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-008                 | O sistema deve permitir que os usuários comparem os preços dos produtos em diferentes supermercados.    | Alta              |
 | RF-009                 | O sistema dever permitir o administrador automatizar promoções  de produtos a partir da data de validade.    | Alta              |
 | RF-010                 | O sistema deve permitir que os usuários pesquisem supermercados próximos a sua localização com base em diferentes critérios, como distância, disponibilidade de estacionamento, horário de funcionamento, entre outros.     | Baixa              |
+| RF-011                 | O sistema deve permitir que os usuários visualizem promoções.     | Baixa              |
 
 
 ### Requisitos não Funcionais
