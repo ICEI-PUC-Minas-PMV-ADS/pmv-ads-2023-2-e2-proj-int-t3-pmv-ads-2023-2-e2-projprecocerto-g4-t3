@@ -55,3 +55,14 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Passos 	|  - Acessar o navegador <br> - Informar o endereço do site <br> - Acessar o sistema como um usuário com permissões de administrador <br> - Navegar até a seção de gerenciamento de clientes <br> - Criar um novo registro de cliente <br> - Salvar o novo registro de cliente <br> - Visualizar informações de clientes existentes <br> - Editar as informações de um cliente existente <br> - Excluir um registro de cliente existente |
 |Critério de Êxito |  O sistema permite a criação, visualização, edição e exclusão de informações de clientes de forma eficaz e precisa |
 |  	|  	|
+| **Caso de Teste** 	| **CT-09 – Visualização e Remoção de Avaliações de Usuários**	|
+|Requisito Associado | RF-006 	- O sistema deve permitir a visualização das avaliações e opiniões dos usuários sobre supermercados e produtos, além de possibilitar a remoção de avaliações inadequadas. |
+| Objetivo do Teste 	| Verificar se o sistema permite aos usuários visualizar avaliações e opiniões sobre supermercados e produtos |
+| Passos 	|  - Acessar o navegador <br> - Informar o endereço do site <br> - Acessar o sistema como um usuário registrado <br> - Navegar até a seção de avaliações de supermercados ou produtos <br> - Selecionar uma avaliação específica <br> - Verificar se os detalhes da avaliação, incluindo autor, data, texto da avaliação e classificação, são exibidos corretamente <br> - Remover uma avaliação inadequada (se aplicável) <br> - Verificar se a avaliação inadequada foi removida com sucesso|
+|Critério de Êxito |  O sistema permite aos usuários visualizar as avaliações de supermercados e produtos e, se aplicável, remove avaliações inadequadas com sucesso. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-10 – Gerenciamento de Produtos**	|
+|Requisito Associado | RF-005 	- O sistema deve possibilitar a gestão de produtos, permitindo adicionar, editar, remover e categorizar itens, além de especificar informações como nome, preço e descrição. |
+| Objetivo do Teste 	| Verificar se o sistema permite o gerenciamento eficaz dos produtos |
+| Passos 	|  - Acessar o navegador <br> - Informar o endereço do site <br> - Acessar o sistema como um usuário com permissões de administrador <br> - Navegar até a seção de gerenciamento de produtos <br> - Adicionar um novo produto ao sistema <br> - Visualizar informações de produtos existentes <br> - Editar as informações de um produto existente <br> - Remover um produto existente <br> - Verificar se o produto foi removido com sucesso |
+|Critério de Êxito |   O sistema permite a adição, edição, remoção, categorização e especificação de informações de produtos de forma eficaz e precisa. |
