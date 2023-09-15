@@ -31,3 +31,9 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Visualizar a página principal <br> - Clica na aba de promoções <br> - Localiza o banner as promoções <br> - Interege com as promoçoes |
 |Critério de Êxito | O usuário visualiza as promoções com sucesso. |
 |  	|  	|
+| **Caso de Teste** 	| **CT-05 – Visualizar promoções**	|
+|Requisito Associado | RF-010	- O sistema deve permitir que os usuários pesquisem produtos com base em vários critérios, como nome, preço e categoria. |
+| Objetivo do Teste 	| Verificar se o usuário consegue pesquisar produtos |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Visualizar a página principal <br> - Localizar a barra de pesquisa <br> - Digitar o nome do produto |
+|Critério de Êxito |  O usuário poderá vizualizar o produto desejado. |
+|  	|  	|
