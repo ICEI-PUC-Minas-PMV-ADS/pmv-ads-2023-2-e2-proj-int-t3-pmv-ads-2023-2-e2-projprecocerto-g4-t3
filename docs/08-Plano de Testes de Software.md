@@ -19,3 +19,10 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
 |Critério de Êxito | O login foi realizado com sucesso. |
 |  	|  	|
+| **Caso de Teste** 	| **CT-03 – Comparar preços**	|
+|Requisito Associado | RF-008	- O sistema deve permitir que os usuários comparem os preços dos produtos em diferentes supermercados. |
+| Objetivo do Teste 	| Verificar se o usuário consegue comparar os preços dos produtos em diferentes supermercados. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Localizar um produto <br> - Adiconar ao carrinho <br> - Ir no carrinho <br> - Clicar no filtro <br> - Escolher um supermercado <br> - Clicar em "Comparar preço"|
+|Critério de Êxito | O preço comparado com sucesso. |
+|  	|  	|
+
