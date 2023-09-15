@@ -37,3 +37,15 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Visualizar a página principal <br> - Localizar a barra de pesquisa <br> - Digitar o nome do produto |
 |Critério de Êxito |  O usuário poderá vizualizar o produto desejado. |
 |  	|  	|
+| **Caso de Teste** 	| **CT-06 – Promoções a partir da Data de Validade**	|
+|Requisito Associado | RF-009 - O sistema deve permitir ao administrador automatizar promoções de produtos a partir da data de validade. |
+| Objetivo do Teste 	| Verificar se o administrador consegue configurar promoções de produtos que serão ativadas com base na data de validade. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Acessar o sistema como administrador. <br> - Navegar até a seção de configuração de promoções ou produtos <br> - Escolher o produto ao qual a promoção será aplicada  <br> - Definir a data de início da promoção <br> - Definir a data de validade do produto <br> - Especificar as condições para ativar a promoção <br> - Salvar as configurações da promoção|
+|Critério de Êxito |  promoção configurada é ativada quando a data de validade do produto atinge a data de início da promoção. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-07 – Inscrições em Notificações por E-mail**	|
+|Requisito Associado | RF-007	- O sistema deve permitir a gestão das inscrições de usuários em notificações por e-mail, incluindo a adição, remoção e edição de assinaturas relacionadas a promoções e descontos. |
+| Objetivo do Teste 	| Verificar se os usuários podem gerenciar suas inscrições em notificações por e-mail, incluindo adição, remoção e edição de assinaturas relacionadas a promoções e descontos. |
+| Passos 	|  - Acessar o navegador <br> - Informar o endereço do site <br> - Navegar até as configurações de notificações por e-mail <br> - Adicionar uma nova inscrição em notificações por e-mail relacionadas a promoções e descontos <br> - Verificar se é possível remover uma inscrição existente em notificações por e-mail relacionadas a promoções e descontos <br> - Editar uma inscrição existente em notificações por e-mail relacionadas a promoções e descontos <br> - Salvar as configurações |
+|Critério de Êxito |  O usuário consegue adicionar, remover e editar suas inscrições em notificações por e-mail relacionadas a promoções e descontos com sucesso |
+|  	|  	|
