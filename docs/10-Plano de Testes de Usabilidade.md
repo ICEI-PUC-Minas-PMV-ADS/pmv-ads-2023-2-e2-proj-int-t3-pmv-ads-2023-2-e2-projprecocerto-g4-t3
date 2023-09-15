@@ -6,10 +6,13 @@ O objetivo da aplicação é realizar um pedido no site, onde o usúario adicion
 
 | Número da Tarefa | Descrição da Tarefa                                                   |
 | -----------------| --------------------------------------------------------------------- |
-|        01        | Adicione um produto ao carrinho e prossiga                            |
-|        02        | Na aba carrinho, prossiga para a comparação de preços e prossiga      |
-|        03        | Escolha qual supermecado deseja realizar a compra e prossiga          |
-|        04        | Altere seu pedido se desejar e prossiga                               |
-|        05        | Feche o pedido                                                        |
+|        01        | Crie uma conta no site                                                |
+|        02        | Faça login com suas credencias                                        |
+|        03        | Vá para a tela inicial do site                                        |
+|        04        | Adicione um produto ao carrinho e prossiga                            |
+|        05        | Na aba carrinho, prossiga para a comparação de preços e prossiga      |
+|        06        | Escolha qual supermecado deseja realizar a compra e prossiga          |
+|        07        | Altere seu pedido se desejar e prossiga                               |
+|        08        | Finalize o pedido                                                     |
 
 
