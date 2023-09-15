@@ -49,3 +49,9 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Passos 	|  - Acessar o navegador <br> - Informar o endereço do site <br> - Navegar até as configurações de notificações por e-mail <br> - Adicionar uma nova inscrição em notificações por e-mail relacionadas a promoções e descontos <br> - Verificar se é possível remover uma inscrição existente em notificações por e-mail relacionadas a promoções e descontos <br> - Editar uma inscrição existente em notificações por e-mail relacionadas a promoções e descontos <br> - Salvar as configurações |
 |Critério de Êxito |  O usuário consegue adicionar, remover e editar suas inscrições em notificações por e-mail relacionadas a promoções e descontos com sucesso |
 |  	|  	|
+| **Caso de Teste** 	| **CT-08 – Gerenciamento de Informações de Clientes**	|
+|Requisito Associado | RF-004	- O sistema deve permitir a criação, visualização, edição e exclusão de informações de clientes, incluindo nome, endereço, e-mail e telefone. |
+| Objetivo do Teste 	| Verificar se o sistema permite o gerenciamento eficaz das informações de clientes |
+| Passos 	|  - Acessar o navegador <br> - Informar o endereço do site <br> - Acessar o sistema como um usuário com permissões de administrador <br> - Navegar até a seção de gerenciamento de clientes <br> - Criar um novo registro de cliente <br> - Salvar o novo registro de cliente <br> - Visualizar informações de clientes existentes <br> - Editar as informações de um cliente existente <br> - Excluir um registro de cliente existente |
+|Critério de Êxito |  O sistema permite a criação, visualização, edição e exclusão de informações de clientes de forma eficaz e precisa |
+|  	|  	|
