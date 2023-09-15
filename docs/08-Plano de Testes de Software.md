@@ -1,7 +1,7 @@
 # Plano de Testes de Software
 
 Os requisitos para realização dos testes de software são: <br>
- * Aplicação publicada na Internet <br>
+ * Computador ou smartphone com acesso a um navegador. <br>
  * Navegador da Internet - Chrome, Firefox ou Edge <br>
 
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
@@ -25,4 +25,9 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Localizar um produto <br> - Adiconar ao carrinho <br> - Ir no carrinho <br> - Clicar no filtro <br> - Escolher um supermercado <br> - Clicar em "Comparar preço"|
 |Critério de Êxito | O preço comparado com sucesso. |
 |  	|  	|
-
+| **Caso de Teste** 	| **CT-04 – Visualizar promoções**	|
+|Requisito Associado | RF-011	- O sistema deve permitir que os usuários visualizem promoções. |
+| Objetivo do Teste 	| Verificar se o usuário consegue visualizar as promoções |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Visualizar a página principal <br> - Clica na aba de promoções <br> - Localiza o banner as promoções <br> - Interege com as promoçoes |
+|Critério de Êxito | O usuário visualiza as promoções com sucesso. |
+|  	|  	|
