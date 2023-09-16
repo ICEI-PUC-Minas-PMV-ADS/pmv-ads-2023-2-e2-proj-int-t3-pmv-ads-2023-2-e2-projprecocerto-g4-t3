@@ -21,6 +21,6 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 > - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
-Depois de muitas reuniões feitas com a equipe de design o seguinte fluxo do usuário (*user flow*) foi criado, a aplicação pode ser visualizada no esquema abaixo ou no [*user flow* interativo](https://www.figma.com/proto/dVkmoqQF66P44CD6LYjOJJ/Wireframes_proj_precocerto_ADS_PUC_E2?type=design&node-id=140-2&t=VEduiTa35ECnsI9y-0&scaling=contain&page-id=0%3A1&starting-point-node-id=140%3A2). Em ambos, é possível compreender como ocorre a interação do usuário com a interface do projeto Peço Certo.
+Depois de muitas reuniões feitas com a equipe de design o seguinte fluxo do usuário (*user flow*) foi criado, a aplicação pode ser visualizada no esquema abaixo ou no [*user flow* interativo](https://www.figma.com/proto/dVkmoqQF66P44CD6LYjOJJ/Wireframes_proj_precocerto_ADS_PUC_E2?type=design&node-id=140-2&t=VEduiTa35ECnsI9y-0&scaling=contain&page-id=0%3A1&starting-point-node-id=140%3A2). Em ambos, é possível compreender como ocorre a interação do usuário com a interface do projeto Preço Certo.
  
 ![Wireframes_proj_precocerto_ADS_PUC_E2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/6fc7389c-b14b-4399-92ac-33e7cb9b9a9f)
