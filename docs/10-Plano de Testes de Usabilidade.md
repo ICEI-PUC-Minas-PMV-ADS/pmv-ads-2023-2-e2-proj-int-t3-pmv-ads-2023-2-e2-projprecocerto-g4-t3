@@ -20,6 +20,7 @@ Apartir dos dados coletados das personas apresentadas anteriormente, foi estabel
 Os usuários foram instruidos a responder o questionário a seguir:
 
 **Legenda**
+| -----------------| -------------------- |
 |   🤩       |  🙂   |   ☹️   |   😡      |
 | Muito fácil | Fácil | Difícil | Impossível|
 
