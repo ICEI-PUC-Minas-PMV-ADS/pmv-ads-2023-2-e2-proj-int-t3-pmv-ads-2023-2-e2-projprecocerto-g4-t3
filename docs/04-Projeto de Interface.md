@@ -21,7 +21,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 > - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Fluxo de usuário
-Depois de muitas reuniões feitas com a equipe de design o seguinte fluxo do usuário (*user flow*) foi criado, a aplicação pode ser visualizada no esquema abaixo ou no [*user flow* interativo](https://www.figma.com/proto/dVkmoqQF66P44CD6LYjOJJ/Wireframes_proj_precocerto_ADS_PUC_E2?type=design&node-id=140-2&t=VEduiTa35ECnsI9y-0&scaling=contain&page-id=0%3A1&starting-point-node-id=140%3A2). Em ambos, é possível compreender como ocorre a interação do usuário com a interface do projeto Preço Certo.
+Depois de muitas reuniões feitas com a equipe de design o seguinte fluxo de usuário (*user flow*) foi criado, a aplicação pode ser visualizada no esquema abaixo ou no [*user flow* interativo](https://www.figma.com/proto/dVkmoqQF66P44CD6LYjOJJ/Wireframes_proj_precocerto_ADS_PUC_E2?type=design&node-id=140-2&t=VEduiTa35ECnsI9y-0&scaling=contain&page-id=0%3A1&starting-point-node-id=140%3A2). Em ambos, é possível compreender como ocorre a interação do usuário com a interface do projeto Preço Certo.
  
 ![Wireframes_proj_precocerto_ADS_PUC_E2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/fbe0c7b6-48f6-4cca-b2ab-a85efb6bb140)
 
@@ -35,7 +35,7 @@ Ao acessar a home page o usuário pode realizar suas buscas por meio da:
 ![Home page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/c8b26ed9-0417-4e5f-bf55-bdabd0ee60e6)
 
 ## Tela de Login
-De inicío o usuário poderá cadastrar-se na própria tela de login apenas conectando suas contas de *Facebook* ou do *Google*, mas caso já tenha uma conta, nesse campo, o usuário encontra-rá encontrar:
+De inicío o usuário poderá cadastrar-se na própria tela de login apenas conectando suas contas de *Facebook* ou do *Google*, mas caso já tenha uma conta, nesse campo, o usuário encontra-rá:
 - Um campo para seu email;
 - Para sua senha;
 - Um para cadastrar-se.
@@ -114,7 +114,7 @@ Quando o usuário salvar uma lista ela estará em Minhas Listas Salvas, nessa te
 ![Listas Salvas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/bc51b365-be88-4353-9508-e0d4e3ff2cc3)
 
 ## Tela Mercado escolhido Aberto
-Ao encontrar o mercado que considera o melhor se tratando de custo benefício, o usuário pode seleciona-lo e prosseguir suas compras. Nessa tela ele encontra:
+Por fim. Ao encontrar o mercado que considera o melhor se tratando de custo benefício, o usuário pode seleciona-lo e prosseguir suas compras. Nessa tela ele encontra:
 - Seus produtos e um botão ao lado para adiciona-los ou retirar-los;
 - Um campo para salvar sua lista se necessário;
 - Um botão "continuar", que o levar para a próxima etapa, a entrega e o pagamento, **que serão responsabilidades do sepermercado escolhido.**
