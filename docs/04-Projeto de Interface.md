@@ -32,14 +32,14 @@ Ao acessar a home page o usuário pode realizar suas buscas por meio da:
 - Caixa de pesquisa;
 - Por categoria;
 - Por corredor.
-![Home page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/b353970f-940f-4b73-ac3e-ebdf4e306b94)
+![Home page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/c8b26ed9-0417-4e5f-bf55-bdabd0ee60e6)
 
 ## Tela de Login
 De inicío o usuário poderá cadastrar-se na própria tela de login apenas conectando suas contas de *Facebook* ou do *Google*, mas caso já tenha uma conta, nesse campo, o usuário encontra-rá encontrar:
 - Um campo para seu email;
 - Para sua senha;
 - Um para cadastrar-se.
-![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/aa2e4721-0714-43ae-8903-b138dc3d2fe6)
+![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/f3c8a561-4232-4395-a34c-852b96c9d013)
 
 ## Tela de Cadastro
 Quando o usuário decidir se cadastrar, nessa tela ele encontra-rá campos de preenchimento que são eles:
@@ -50,7 +50,7 @@ Quando o usuário decidir se cadastrar, nessa tela ele encontra-rá campos de pr
 - Email;
 - Telefone;
 - Um campo para adicionar um foto (totalmente opcional).
-![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/249f6cd4-7ea8-46f1-8e76-7b04f436d222)
+![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/9625a174-2e0e-4103-89e1-595e86310a59)
 
 ## Tela Corredores
 Essa tela foi pensada para que o usuário sinta que realmente está andando pelos corredores de um supermercado, sendo assim, nela, o usuário encontra:
