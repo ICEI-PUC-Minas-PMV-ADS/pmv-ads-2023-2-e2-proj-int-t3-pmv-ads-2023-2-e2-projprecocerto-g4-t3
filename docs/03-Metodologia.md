@@ -36,7 +36,8 @@ Para a organização e distribuição das tarefas do projeto, o grupo esta utili
 - `In progress`: O que está sendo feito.
 - `Done`: Tudo o que foi finalizado.
 
-#### Backlog em ??/??/????:
+#### Backlog em 18/09/2023
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/74187849/984edce1-efe2-4bb6-a75e-3a3c90d2dc99)
 
 ### Ferramentas
 
