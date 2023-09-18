@@ -34,8 +34,6 @@ Para a organização e distribuição das tarefas do projeto, o grupo esta utili
 - `Backlog`: todas as atividades que devem ser realizadas no projeto, desde a documentação até o desenvolvimento final do site.
 - `To do (atualizado a cada vencimento de prazo)`: Apresenta o prazo da sprint atual e o que foi definido previamente para ser  realizado até o final da mesma.
 - `In progress`: O que está sendo feito.
-- `Problems`: Correção de bugs e problemas.
-- `In Review (atualizado semanalmente)`: O que precisa ser revisado junto ao orientador.
 - `Done`: Tudo o que foi finalizado.
 
 #### Backlog em ??/??/????:
