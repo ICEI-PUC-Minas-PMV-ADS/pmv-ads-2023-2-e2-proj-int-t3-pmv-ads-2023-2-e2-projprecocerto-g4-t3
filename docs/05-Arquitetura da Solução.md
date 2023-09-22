@@ -32,4 +32,5 @@ A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
 ## Tecnologias Utilizadas
 
 Para realização do Modelo ER LucidChart. Link da ferramenta: https://www.lucidchart.com/
+
 Para a realização do Projeto da Base de Dados utilizamos a ferramenta Dbdiagram.io. Link da ferramenta:  https://dbdiagram.io/home
