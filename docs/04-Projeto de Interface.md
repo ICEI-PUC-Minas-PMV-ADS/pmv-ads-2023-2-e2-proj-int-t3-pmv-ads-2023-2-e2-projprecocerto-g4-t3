@@ -19,7 +19,7 @@ O diagrama de fluxo abaixo reflete as principais funcionalidades do nosso sistem
 ![Diagrama de Fluxo drawio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/77369235/78fa6060-0efb-48cf-affc-bb59fa33de36)
 
 
-
+A ferramenta que utilizamos para criação desse diagrama é a ferramenta https://app.diagrams.net/
 
 ## Fluxo de usuário
 Depois de muitas reuniões feitas com a equipe de design o seguinte fluxo de usuário (*user flow*) foi criado, a aplicação pode ser visualizada no esquema abaixo ou no [*user flow* interativo](https://www.figma.com/proto/dVkmoqQF66P44CD6LYjOJJ/Wireframes_proj_precocerto_ADS_PUC_E2?type=design&node-id=140-2&t=VEduiTa35ECnsI9y-0&scaling=contain&page-id=0%3A1&starting-point-node-id=140%3A2). Em ambos, é possível compreender como ocorre a interação do usuário com a interface do projeto Preço Certo.
