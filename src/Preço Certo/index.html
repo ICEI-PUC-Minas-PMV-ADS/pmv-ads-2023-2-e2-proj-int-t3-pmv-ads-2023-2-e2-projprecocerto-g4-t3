@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preço Certo</title>
+    <link rel="website icon" type="png"
+    href="Imgs/cesta-de-compras.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+      <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-item"><img src="Imgs/Teste-img.png" alt="Imagem 1"></div>
+            <div class="carousel-item"><img src="Imgs/Teste-img2.png" alt="Imagem 2"></div>
+            <div class="carousel-item"><img src="Imgs/Teste-img3.png" alt="Imagem 3"></div>
+        </div>
+    </div>
+
+    <div class="carousel-controls">
+        <div class="carousel-control" id="prev">&#10094;</div>
+        <div class="carousel-control" id="next">&#10095;</div>
+    </div>
+
+    <script>
+        const carousel = document.querySelector('.carousel');
+        const prevButton = document.getElementById('prev');
+        const nextButton = document.getElementById('next');
+        let currentIndex = 0;
+
+        prevButton.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + carousel.children.length) % carousel.children.length;
+            updateCarousel();
+        });
+
+        nextButton.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % carousel.children.length;
+            updateCarousel();
+        });
+
+        function updateCarousel() {
+            const translateX = -currentIndex * 100 + '%';
+            carousel.style.transform = `translateX(${translateX})`;
+        }
+    </script>
+        <nav>
+            <ul>
+              <a href="index.html">
+                <img src="Imgs/cesta-de-compras.png" alt="" style="width: 45px; height: 45px; margin: -25%;">
+            </a>
+                <form action="/search" method="get">
+                  <input type="text" id="search-field" name="q" placeholder="Buscar por produtos...">
+                  <button type="submit">search</button>
+              </form>
+              <a href="Cupons.html">
+                <img src="Imgs/promo-code.png" alt="" style="width: 25px; height: 25px;"> Você falou, cupom?
+            </a>
+            <a href=""> 
+              <img src="Imgs/user.png" alt="" style="width: 25px; height: 25px;"> Bem vindo, Entre ou Cadastre-se
+          </a>
+            <a href="Meus pedidos.html"> 
+              <img src="Imgs/box.png" alt="" style="width: 25px; height: 25px;"> Meus Pedidos
+          </a>
+          <a href="Minhas listas.html"> 
+            <img src="Imgs/heart.png" alt="" style="width: 25px; height: 25px;"> Minhas Listas
+        </a>
+        <a href="Carrinho.html">
+          <img src="Imgs/shopping-cart.png" alt="" style="width: 25px; height: 25px;">
+      </a>
+            </ul>
+        </nav>
+    </header>
+
+    <footer>
+        <p></p>
+    </footer>
+</body>
+
+</html>
