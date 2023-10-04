@@ -10,6 +10,15 @@ nav {
     width: 100%;
 }
 
+b {
+    display: block;
+    justify-content: baseline;
+    margin-top: -2%;
+    position: relative;
+    top: -100%;
+    left: 40%;
+}
+
 ul {
     display: flex;
     justify-content: space-around;
