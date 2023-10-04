@@ -38,11 +38,9 @@ a {
 
 .carousel-container {
     display: flex;
-    height: 60px;
-    width: 100%;
-    position:absolute; top: 100;
-    left: 0;
-    width: 100%;
+    position: absolute;
+    left: -10px;
+    overflow-x: hidden;
 }
 
 .carousel {
