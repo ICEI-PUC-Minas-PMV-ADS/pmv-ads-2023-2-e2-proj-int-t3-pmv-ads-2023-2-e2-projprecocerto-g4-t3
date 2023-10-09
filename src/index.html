@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preço Certo</title>
+    <link rel="website icon" type="png" href="Imgs/cesta-de-compras.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="overflow-x: hidden">
+    <header>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-item"><img src="Imgs/imagensfrutas.jpg" alt="Imagem 1"></div>
+                <div class="carousel-item"><img src="Img/Descontoscupom.jpg" alt="Imagem 2"></div>
+                <div class="carousel-item"><img src="" alt="Imagem 3"></div>
+            </div>
+        </div>
+
+        <div class="carousel-controls">
+            <div class="carousel-control" id="prev">&#10094;</div>
+            <div class="carousel-control" id="next">&#10095;</div>
+        </div>
+        <script>
+            const carousel = document.querySelector('.carousel');
+            const prevButton = document.getElementById('prev');
+            const nextButton = document.getElementById('next');
+            let currentIndex = 0;
+
+            prevButton.addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + carousel.children.length) % carousel.children.length;
+                updateCarousel();
+            });
+
+            nextButton.addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % carousel.children.length;
+                updateCarousel();
+            });
+
+            function updateCarousel() {
+                const translateX = -currentIndex * 100 + '%';
+                carousel.style.transform = `translateX(${translateX})`;
+            }
+        </script>
+
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <img src="Imgs/cesta-de-compras.png" alt="" style="width: 45px; height: 45px; margin: -25%;">
+                </a>
+                <form action="/search" method="get">
+                    <input type="text" id="search-field" name="q" placeholder="Buscar por produtos...">
+                    <button type="submit">search</button>
+                </form>
+                <a href="Cupons.html">
+                    <img src="Imgs/promo-code.png" alt="" style="width: 25px; height: 25px;"> Você falou, cupom?
+                </a>
+                <a href="">
+                    <img src="Imgs/user.png" alt="" style="width: 25px; height: 25px;"> Bem vindo, Entre ou Cadastre-se
+                </a>
+                <a href="Meus pedidos.html">
+                    <img src="Imgs/box.png" alt="" style="width: 25px; height: 25px;"> Meus Pedidos
+                </a>
+                <a href="Minhas listas.html">
+                    <img src="Imgs/heart.png" alt="" style="width: 25px; height: 25px;"> Minhas Listas
+                </a>
+                <a href="Carrinho.html">
+                    <img src="Imgs/shopping-cart.png" alt="" style="width: 25px; height: 25px;">
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>Produtos</h1>
+            <div class="card-list">
+                <div class="card">
+                    <img src="Imgs/Teste-img.png" alt="Img Card">
+                    <div class="card-info">
+                        <h2>Nome do produto</h2>
+                        <p>Descrição do produto</p>
+                        <button class="card-button">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Imgs/Teste-img.png" alt="Img Card">
+                    <div class="card-info">
+                        <h2>Nome do produto</h2>
+                        <p>Descrição do produto</p>
+                        <button class="card-button">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Imgs/Teste-img.png" alt="Img Card">
+                    <div class="card-info">
+                        <h2>Nome do produto</h2>
+                        <p>Descrição do produto</p>
+                        <button class="card-button">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Imgs/Teste-img.png" alt="Img Card">
+                    <div class="card-info">
+                        <h2>Nome do produto</h2>
+                        <p>Descrição do produto</p>
+                        <button class="card-button">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Imgs/Teste-img.png" alt="Img Card">
+                    <div class="card-info">
+                        <h2>Nome do produto</h2>
+                        <p>Descrição do produto</p>
+                        <button class="card-button">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <div class="card-list">
+                        <div class="card">
+                            <img src="Imgs/Teste-img.png" alt="Img Card">
+                            <div class="card-info">
+                                <h2>Nome do produto</h2>
+                                <p>Descrição do produto</p>
+                                <button class="card-button">Adicionar ao Carrinho</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="Imgs/Teste-img.png" alt="Img Card">
+                            <div class="card-info">
+                                <h2>Nome do produto</h2>
+                                <p>Descrição do produto</p>
+                                <button class="card-button">Adicionar ao Carrinho</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="Imgs/Teste-img.png" alt="Img Card">
+                            <div class="card-info">
+                                <h2>Nome do produto</h2>
+                                <p>Descrição do produto</p>
+                                <button class="card-button">Adicionar ao Carrinho</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="Imgs/Teste-img.png" alt="Img Card">
+                            <div class="card-info">
+                                <h2>Nome do produto</h2>
+                                <p>Descrição do produto</p>
+                                <button class="card-button">Adicionar ao Carrinho</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="Imgs/Teste-img.png" alt="Img Card">
+                            <div class="card-info">
+                                <h2>Nome do produto</h2>
+                                <p>Descrição do produto</p>
+                                <button class="card-button">Adicionar ao Carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1>Mercados em Destaque</h1>
+                        <div class="card-list-emphasis">
+                            <div class="card-market" style="width: 18rem;">
+                                <img class="card-img-top" src="Imgs/supermercadosbhlogo.png" alt="Card image cap">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                            <div class="card-market" style="width: 18rem;">
+                                <img class="card-img-top" src="Imgs/supermercadoepa.png" alt="Card image cap">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                            <div class="card-market" style="width: 18rem;">
+                                <img class="card-img-top" src="Imgs/supermercadocarrefour.png" alt="Card image cap">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                            <div class="card-market" style="width: 18rem;">
+                                <img class="card-img-top" src="Imgs/supermecadodia.png" alt="Card image cap">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                            <div class="card-market" style="width: 18rem;">
+                                <img class="card-img-top" src="Imgs/supermercadosupernosso.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                            <div class="card-market" style="width: 18rem;">
+                                <img class="card-img-top" src="Imgs/supermercadoverdemar.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h1>Promoções da Semana</h1>
+
+                        <div class="card-list">
+                            <div class="card">
+                                <img src="Imgs/Teste-img.png" alt="Img Card">
+                                <div class="card-info">
+                                    <h2>Nome do produto</h2>
+                                    <p>Descrição do produto</p>
+                                    <button class="card-button">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Imgs/Teste-img.png" alt="Img Card">
+                                <div class="card-info">
+                                    <h2>Nome do produto</h2>
+                                    <p>Descrição do produto</p>
+                                    <button class="card-button">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Imgs/Teste-img.png" alt="Img Card">
+                                <div class="card-info">
+                                    <h2>Nome do produto</h2>
+                                    <p>Descrição do produto</p>
+                                    <button class="card-button">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Imgs/Teste-img.png" alt="Img Card">
+                                <div class="card-info">
+                                    <h2>Nome do produto</h2>
+                                    <p>Descrição do produto</p>
+                                    <button class="card-button">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="Imgs/Teste-img.png" alt="Img Card">
+                                <div class="card-info">
+                                    <h2>Nome do produto</h2>
+                                    <p>Descrição do produto</p>
+                                    <button class="card-button">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </main>
+
+    <footer>
+        <div class="bottom-footerstyle__BottomFooter-sc-1oze68m-0 bihdfh">
+            <div class="bottom-footerstyle__Container-sc-1oze68m-1 jsIMZf">
+                <div class="bottom-footerstyle__ContainerImages-sc-1oze68m-4 lgTTyE"><a href="" class="bottom-footerstyle__Link-sc-1oze68m-2 cbFCvk"><img src="https://static.gpa.digital/images/logos/gpalogo.png?im=Resize,width=70" alt="" class="bottom-footerstyle__Logo-sc-1oze68m-3 cUItki"></a><div class="bottom-footerstyle__Cards-sc-1oze68m-5 eyIrAV"><img src="Imgs/symbols.png" alt="Cartão Visa" width="40px" class="bottom-footerstyle__Icons-sc-1oze68m-6 kSmLlZ"><img src="https://static.gpa.digital/images/cards/master.svg?im=Resize,width=34" alt="Cartão Mastercard" width="34px" class="bottom-footerstyle__Icons-sc-1oze68m-6 fNMqwH"><img src="https://static.gpa.digital/images/cards/hipercard.png?im=Resize,width=40" alt="Cartão Hipercard" width="40px" class="bottom-footerstyle__Icons-sc-1oze68m-6 kSmLlZ"><img src="https://static.gpa.digital/images/cards/ticket.png?im=Resize,width=40" alt="Cartão Ticket" width="40px" class="bottom-footerstyle__Icons-sc-1oze68m-6 kSmLlZ"><img src="https://static.gpa.digital/images/cards/sodexo.png?im=Resize,width=40" alt="Cartão Sodexo" width="40px" class="bottom-footerstyle__Icons-sc-1oze68m-6 kSmLlZ"><img src="https://static.gpa.digital/images/cards/elo.svg?im=Resize,width=34" alt="Cartão Elo" width="34px" class="bottom-footerstyle__Icons-sc-1oze68m-6 fNMqwH"><img src="https://static.gpa.digital/images/cards/alelo.png?im=Resize,width=40" alt="Cartão Alelo" width="40px" class="bottom-footerstyle__Icons-sc-1oze68m-6 kSmLlZ"><img src="https://static.gpa.digital/images/cards/vr-alimentacao.png?im=Resize,width=40" alt="VR Alimentação" width="31px" class="bottom-footerstyle__Icons-sc-1oze68m-6 fcpjYs"><img src="https://static.gpa.digital/images/cards/logo-pix-white-with-text.png?im=Resize,width=80" alt="Logo Pix" width="80px" class="bottom-footerstyle__Icons-sc-1oze68m-6 jRvOtp"></div></div><div class="bottom-footerstyle__Ebit-sc-1oze68m-7 lfyLoY"><a target="_blank" title="Avaliado pelos consumidores" style="display: block; overflow: hidden; position: relative;"></a></div><p class="bottom-footerstyle__LegalInfo-sc-1oze68m-8 ecoKdl">
+                    A VENDA E O CONSUMO DE BEBIDAS ALCOÓLICAS SÃO PROIBIDOS PARA MENORES DE 18 ANOS. BEBIDA ALCOÓLICA PODE CAUSAR DEPENDÊNCIA QUÍMICA E, EM EXCESSO, PROVOCA GRAVES MALES À SAÚDE. BEBA COM MODERAÇÃO. Preços, ofertas e condições exclusivas para internet e válidos segundo as regras do mercado escolhido, podendo sofrer alterações sem prévia notificação. No caso de faltar algum produto, este não será entregue e o valor correspondente não será cobrado. Cia. Brasileira de Distribuição / CNPJ: 00000000/0000-00 / R. Dom José Gaspar, 500 - Coração Eucarístico, Belo Horizonte - MG, 30535-901
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
