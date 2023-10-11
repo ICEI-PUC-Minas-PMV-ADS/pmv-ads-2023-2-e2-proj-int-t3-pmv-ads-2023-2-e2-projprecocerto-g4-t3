@@ -1,0 +1,54 @@
+﻿@model PrecoCerto.Models.Usuario
+
+@{
+    ViewData["Title"] = "Details";
+}
+<div class="d-flex flex-column wrapper">
+    <main class="flex-fill">
+        <div class="container">
+            <div class="row">
+                <h1>Dados do usuário</h1>
+
+                <hr />
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="col-sm-4">
+                                @Html.DisplayNameFor(model => model.Nome)
+                            </th>
+                            <th class="col-sm-4">
+                                @Html.DisplayNameFor(model => model.Email)
+                            </th>
+                            <th class="col-sm-4">
+                                @Html.DisplayNameFor(model => model.Endereco)
+                            </th>
+                            <th class="col-sm-4">
+                                @Html.DisplayNameFor(model => model.Telefone)
+                            </th>
+                        <tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="col-sm-4">
+                                @Html.DisplayFor(model => model.Nome)
+                            </td>
+                            <td class="col-sm-4">
+                                @Html.DisplayFor(model => model.Email)
+                            </td>
+                            <td class="col-sm-4">
+                                @Html.DisplayFor(model => model.Endereco)
+                            </td>
+                            <td class="col-sm-4">
+                                @Html.DisplayFor(model => model.Telefone)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="mt-3">
+                    <a class="btn btn-primary" asp-action="Index">Voltar</a>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>

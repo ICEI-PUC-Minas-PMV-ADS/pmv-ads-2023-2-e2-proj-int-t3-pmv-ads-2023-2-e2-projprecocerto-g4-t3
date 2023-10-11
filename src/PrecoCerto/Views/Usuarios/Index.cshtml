@@ -1,0 +1,61 @@
+﻿@model IEnumerable<PrecoCerto.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="d-flex flex-column wrapper">
+    <main class="flex-fill">
+        <div class="container">
+            <div class="row">
+            <h1>Usuários</h1>
+
+            <p>
+                <a class="btn btn-success" id="btn-left" asp-action="Create">Cadastrar novo Usuário</a>
+            </p>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Nome)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Email)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Endereco)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Telefone)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+            @foreach (var item in Model) {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Endereco)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Telefone)
+                        </td>
+                        <td>
+                            <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> 
+                            <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Vizualizar</a> 
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
+                        </td>
+                    </tr>
+            }
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </main>
+</div>

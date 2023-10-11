@@ -9,12 +9,20 @@ namespace PrecoCerto.Models
         [Key]
         public int Id { get; set; }
 
-        public string Endereco { get; set; }
+        [Required(ErrorMessage = "Obrigatório informar o Nome")]
+        public string Nome { get; set; }
 
+        [Required(ErrorMessage = "Obrigatório informar o Email")]
         public string Email { get; set; }
 
+        [Required(ErrorMessage = "Obrigatório informar a Senha")]
+        [DataType(DataType.Password)]
         public string Senha { get; set; }
 
+        [Required(ErrorMessage = "Obrigatório informar o Endereco")]
+        public string Endereco { get; set; }
+
+        [Required(ErrorMessage = "Obrigatório informar o Telefone")]
         public string Telefone { get; set; }
 
         // Relação 1-para-N com a tabela Fornecedor
