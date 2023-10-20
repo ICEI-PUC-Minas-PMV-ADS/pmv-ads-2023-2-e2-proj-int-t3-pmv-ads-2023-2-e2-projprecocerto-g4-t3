@@ -37,7 +37,10 @@ Para a organização e distribuição das tarefas do projeto, o grupo esta utili
 - `Done`: Tudo o que foi finalizado.
 
 #### Backlog em 18/09/2023
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/74187849/984edce1-efe2-4bb6-a75e-3a3c90d2dc99)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/74187849/984edce1-efe2-4bb6-a75e-3a3c90d2dc99) 
+
+#### Backlog em 22/03/2023
+![imagem_2023-10-20_202537080](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/126032592/7fce12fc-f1fa-4571-b1cb-4a1de99d1e01)
 
 ### Ferramentas
 
