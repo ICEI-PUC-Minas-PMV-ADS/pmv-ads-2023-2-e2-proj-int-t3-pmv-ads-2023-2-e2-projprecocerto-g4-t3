@@ -38,12 +38,17 @@ body {
 }
 
 #text-name {
-  display: flex; 
-  align-items: center;
+    display: flex; 
+    align-items: center;
 }
 
 #text-icon-margin {
-    margin-left:10px;
+    margin-left: 10px
+}
+
+.btn-cad-left {
+    display: flex;
+    justify-content: flex-end;
 }
 /*------------------------------------------ CSS 1 ----------------------------------------------------*/
 .theme-color-1 {
@@ -989,7 +994,6 @@ body {
     color: #4a5568;
     display: block
 }
-
 .btn-animation {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1008,9 +1012,9 @@ body {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     position: relative;
-    background: #ff6b6b;
-    background: -webkit-gradient(linear, left top, right top, from(#ff6b6b), to(#ff4f4f));
-    background: linear-gradient(90deg, #ff6b6b 0%, #ff4f4f 100%);
+    background: #76a046;
+    background: -webkit-gradient(linear, left top, right top, from(#76a046), to(#4d7c11));
+    background: linear-gradient(90deg, #76a046 0%, #4d7c11 100%);
     border: none;
     z-index: 0
 }
@@ -1029,9 +1033,9 @@ body {
         left: 0;
         z-index: -1;
         border-radius: 5px;
-        background: #ff4f4f;
-        background: -webkit-gradient(linear, left top, right top, from(#ff4f4f), to(#ff6b6b));
-        background: linear-gradient(90deg, #ff4f4f 0%, #ff6b6b 100%);
+        background: #729d42;
+        background: -webkit-gradient(linear, left top, right top, from(#729d42), to(#568913));
+        background: linear-gradient(90deg, #729d42 0%, #568913 100%);
         -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease
     }
@@ -5972,7 +5976,6 @@ span {
         height: 100%;
         top: 0;
         left: 0;
-        background-image: url(../img/shape.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -6447,7 +6450,6 @@ footer {
         height: 100%;
         top: 0;
         left: 0;
-        background-image: url(../img/footer-shape.png);
         background-repeat: no-repeat;
         z-index: -1
     }
@@ -6465,7 +6467,6 @@ footer:before {
     height: 100%;
     bottom: 0;
     right: 0;
-    background-image: url(../img/footer-shape-2.png);
     background-repeat: no-repeat;
     z-index: -1
 }
@@ -12825,12 +12826,6 @@ header .location-box button i {
         background-color: rgba(255,255,255,0.4)
     }
 
-.bg-effect {
-    background-image: url("../img/bg-body.png");
-    background-repeat: no-repeat;
-    background-position: center
-}
-
 .home-contain {
     overflow: hidden;
     position: relative;
@@ -14073,7 +14068,6 @@ header .navbar-nav .dropdown-menu-2 {
         position: absolute;
         width: 100%;
         height: 100%;
-        background-image: url(../images/bg.png);
         background-position: right;
         background-repeat: no-repeat;
         background-size: cover;
@@ -15722,7 +15716,6 @@ header .offcanvas-backdrop {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-image: url(../img/10.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: calc(20px + (35 - 20) * ((100vw - 320px) / (1920 - 320)));
@@ -19161,7 +19154,6 @@ header .offcanvas-backdrop {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-image: url(../img/coming-soon.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22197,7 +22189,6 @@ header .offcanvas-backdrop {
         height: 100%;
         top: 0;
         left: 0;
-        background-image: url(../img/log-in-bg.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

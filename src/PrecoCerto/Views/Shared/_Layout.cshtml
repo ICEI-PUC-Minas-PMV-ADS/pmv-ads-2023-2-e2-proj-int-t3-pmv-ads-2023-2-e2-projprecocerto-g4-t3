@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿﻿
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
@@ -19,7 +20,7 @@
 <body class="theme-color-2 bg-effect">
 
     <header class="header-2">
-      
+
         <div class="top-nav top-header sticky-header sticky-header-3">
             <div class="container-fluid-lg">
                 <div class="row">
@@ -68,20 +69,20 @@
                             <div class="rightside-menu">
                                 <div class="option-list">
                                     <ul>
-                                         @if (User.Identity.IsAuthenticated)
+                                        @if (User.Identity.IsAuthenticated)
                                         {
-                                        <li></li>
-                                         }
+                                            <li></li>
+                                        }
                                         else
                                         {
-                                        <li>
-                                            <a asp-area="" asp-controller="Usuarios" asp-action="Login" class="header-icon user-icon search-icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle icli" viewBox="0 0 16 16">
-                                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-                                                </svg>
-                                            </a>
-                                        </li>
+                                            <li>
+                                                <a asp-area="" asp-controller="Usuarios" asp-action="Login" class="header-icon user-icon search-icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle icli" viewBox="0 0 16 16">
+                                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                                    </svg>
+                                                </a>
+                                            </li>
                                         }
 
                                         <li>
@@ -104,27 +105,27 @@
                                         {
                                             <li class="onhover-dropdown" id="text-name">
                                                 Olá, @User.Identity.Name<a asp-area="" asp-controller="Usuarios" asp-action="Logout" class="header-icon swap-icon" id="text-icon-margin">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-circle icli" viewBox="0 0 16 16">
-                                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </a>
-                                        </li>
-                                         }
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-circle icli" viewBox="0 0 16 16">
+                                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        }
                                         else
                                         {
-                                        <li class="onhover-dropdown">
-                                            <a asp-area="" asp-controller="Usuarios" asp-action="Login" class="header-icon swap-icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle icli" viewBox="0 0 16 16">
-                                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-                                                </svg>
-                                            </a>
-                                        </li>
+                                            <li class="onhover-dropdown">
+                                                <a asp-area="" asp-controller="Usuarios" asp-action="Login" class="header-icon swap-icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle icli" viewBox="0 0 16 16">
+                                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                                    </svg>
+                                                </a>
+                                            </li>
                                         }
 
                                         <li class="onhover-dropdown">
-                                            <a href="#" class="header-icon bag-icon">
+                                            <a asp-area="" asp-controller="Home" asp-action="Privacy" class="header-icon bag-icon">
                                                 <small class="badge-number">2</small>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart3 icli" viewBox="0 0 16 16">
                                                     <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
@@ -156,7 +157,7 @@
                                                     <li>
                                                         <div class="drop-cart">
                                                             <a href="#" class="drop-image">
-                                                                <img src="~/img/produto/2.png"
+                                                                <img src="~/img/produto/1.png"
                                                                      class="blur-up lazyload" alt="">
                                                             </a>
 
@@ -232,7 +233,7 @@
 
                                         <div class="onhover-category-box">
                                             <div class="list-1">
-                                                <div class="category-title-box">                                              
+                                                <div class="category-title-box">
                                                     <h5>Vegetais organicos</h5>
                                                 </div>
                                                 <ul>
@@ -250,7 +251,7 @@
                                                     <li>
                                                         <a href="#">Banana e Mamão</a>
                                                     </li>
-                                                    
+
                                                 </ul>
                                             </div>
                                         </div>
@@ -274,7 +275,7 @@
                                                     <li>
                                                         <a href="#">Refrigerantes</a>
                                                     </li>
-                                                    
+
                                                 </ul>
                                             </div>
                                         </div>
@@ -298,7 +299,7 @@
                                                     <li>
                                                         <a href="#">Carne fresca</a>
                                                     </li>
-                                                   
+
                                                 </ul>
                                             </div>
 
@@ -310,7 +311,7 @@
                                                     <li>
                                                         <a href="#">Peixe de água doce</a>
                                                     </li>
-                                                   
+
                                                 </ul>
                                             </div>
                                         </div>
@@ -334,7 +335,7 @@
                                                     <li>
                                                         <a href="#">Aveia e Mingau</a>
                                                     </li>
-                                                   
+
                                                 </ul>
                                             </div>
 
@@ -346,7 +347,7 @@
                                                     <li>
                                                         <a href="#">Leite</a>
                                                     </li>
-                                                   
+
                                                 </ul>
                                             </div>
                                         </div>
@@ -406,7 +407,7 @@
                                                     <li>
                                                         <a href="#">Limão, Gengibre e Alho</a>
                                                     </li>
-                                                   
+
                                                 </ul>
                                             </div>
 
@@ -418,7 +419,7 @@
                                                     <li>
                                                         <a href="#">Frutas Secas Orgânicas</a>
                                                     </li>
-                                                   
+
                                                 </ul>
                                             </div>
                                         </div>
@@ -444,7 +445,7 @@
                                                     <path d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z" />
                                                     <path d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z" />
                                                 </svg>
-                                                 Você falou, cupom?
+                                                Você falou, cupom?
                                             </a>
                                         </li>
 
@@ -453,7 +454,7 @@
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-seam icon-margin" viewBox="0 0 16 16">
                                                     <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
                                                 </svg>
-                                                 Meus Pedidos
+                                                Meus Pedidos
                                             </a>
                                         </li>
 
@@ -525,7 +526,7 @@
             </li>
         </ul>
     </div>
-    
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

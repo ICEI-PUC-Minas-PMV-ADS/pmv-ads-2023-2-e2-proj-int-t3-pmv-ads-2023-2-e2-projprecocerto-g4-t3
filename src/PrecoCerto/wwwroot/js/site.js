@@ -1,9 +1,8 @@
-﻿/*=====================
-   Image to background js
-==========================*/
-(function ($) {
+﻿(function ($) {
     "use strict";
-
+    /*=====================
+     Image to background js
+    ==========================*/
     $(".bg-top").parent().addClass("b-top");
     $(".bg-bottom").parent().addClass("b-bottom");
     $(".bg-center").parent().addClass("b-center");
@@ -28,9 +27,9 @@
         el.hide();
     });
 
-/*=====================
-   Shop Page Grid Setting Js
-==========================*/
+    /*=====================
+    Shop Page Grid Setting Js
+    ==========================*/
     $(".grid-option li").on("click", function () {
         $(this).addClass('active').siblings().removeClass('active');
     });
@@ -59,8 +58,45 @@
 })(jQuery);
 
 /*=====================
-  mobile menu active class js
- ==========================*/
+    Footer function js
+==========================*/
+var contentwidth = $(window).width();
+if (contentwidth < "576") {
+    $(".footer-title h4").append(
+        '<span class="according-menu float-end"><i class="fa-solid fa-angle-down"></i></span>'
+    );
+    $(".footer-title").on("click", function () {
+        $(".footer-title")
+            .removeClass("active")
+            .find("span")
+            .replaceWith(
+                '<span class="according-menu float-end"><i class="fa-solid fa-angle-down"></i></span>'
+            );
+        $(".footer-contact, .footer-contain").slideUp("normal");
+        if ($(this).next().is(":hidden") == true) {
+            $(this).addClass("active");
+            $(this)
+                .find("span")
+                .replaceWith(
+                    '<span class="according-menu float-end"><i class="fas fa-chevron-up"></i></span>'
+                );
+            $(this).next().slideDown("normal");
+        } else {
+            $(this)
+                .find("span")
+                .replaceWith(
+                    '<span class="according-menu float-end"><i class="fa-solid fa-angle-down"></i></span>'
+                );
+        }
+    });
+    $(".footer-contact, .footer-contain").hide();
+} else {
+    $(".footer-contact, .footer-contain").show();
+}
+
+/*=====================
+   mobile menu active class js
+   ==========================*/
 $(document).ready(function () {
     $('.mobile-menu ul li a').click(function () {
         $('li a').removeClass("active");
@@ -69,8 +105,8 @@ $(document).ready(function () {
 });
 
 /*=====================
-  btn-cart open close js
- ==========================*/
+   btn-cart open close js
+   ==========================*/
 $(document).ready(function () {
     $('.button-item').on("click", function () {
         $('.item-section').addClass("active");
@@ -90,27 +126,11 @@ $(document).ready(function () {
     });
 });
 
-/*=====================
-  quantity js
- ==========================*/
-$('.qty-box .quantity-right-plus').on('click', function () {
-    var $qty = $(this).parents(".qty-box").find(".input-number");
-    var currentVal = parseInt($qty.val(), 10);
-    if (!isNaN(currentVal)) {
-        $qty.val(currentVal + 0);
-    }
-});
-$('.qty-box .quantity-left-minus').on('click', function () {
-    var $qty = $(this).parents(".qty-box").find(".input-number");
-    var currentVal = parseInt($qty.val(), 10);
-    if (!isNaN(currentVal) && currentVal > 0) {
-        $qty.val(currentVal - 0);
-    }
-});
+
 
 /*=====================
-  Tap to Top js
- ==========================*/
+   Tap to Top js
+   ==========================*/
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
@@ -129,8 +149,8 @@ $(document).ready(function () {
 });
 
 /*=====================
-   User Dashboard Left Sidebar Show Js
- ==========================*/
+    User Dashboard Left Sidebar Show Js
+   ==========================*/
 $(".left-dashboard-show").click(function () {
     $(".bg-overlay, .dashboard-left-sidebar").addClass("show");
 });
@@ -139,8 +159,8 @@ $(".close-button, .bg-overlay, .user-nav-pills .nav-item .nav-link").click(funct
 });
 
 /*=====================
-   Tooltip Js
- ==========================*/
+    Tooltip Js
+   ==========================*/
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
@@ -148,7 +168,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
 /*=====================
    Image To Background Js
- ==========================*/
+==========================*/
 $(".bg-top").parent().addClass("b-top");
 $(".bg-bottom").parent().addClass("b-bottom");
 $(".bg-center").parent().addClass("b-center");
@@ -175,7 +195,7 @@ $(".bg-img").each(function () {
 
 /*=====================
    search box function Js
- ==========================*/
+==========================*/
 $(".search-box").on("click", function () {
     $(this).closest(".rightside-box").find(".search-full").addClass("open");
 });
@@ -192,48 +212,6 @@ $(window).on("load resize", function () {
 });
 
 /*=====================
-   Wishlist Js
- ==========================*/
-$(".notifi-wishlist").on("click", function () {
-    $.notify({
-        icon: "fa fa-check",
-        title: "Success!",
-        message: "Item Successfully added in wishlist",
-    }, {
-        element: "body",
-        position: null,
-        type: "info",
-        allow_dismiss: true,
-        newest_on_top: false,
-        showProgressbar: true,
-        placement: {
-            from: "top",
-            align: "right",
-        },
-        offset: 20,
-        spacing: 10,
-        z_index: 1031,
-        delay: 5000,
-        animate: {
-            enter: "animated fadeInDown",
-            exit: "animated fadeOutUp",
-        },
-        icon_type: "class",
-        template: '<div data-notify="container" class="col-xxl-3 col-lg-5 col-md-6 col-sm-7 col-12 alert alert-{0}" role="alert">' +
-            '<button type="button" aria-hidden="true" class="btn-close" data-notify="dismiss"></button>' +
-            '<span data-notify="icon"></span> ' +
-            '<span data-notify="title">{1}</span> ' +
-            '<span data-notify="message">{2}</span>' +
-            '<div class="progress" data-notify="progressbar">' +
-            '<div class="progress-bar progress-bar-info progress-bar-{0}" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>' +
-            "</div>" +
-            '<a href="{3}" target="{4}" data-notify="url"></a>' +
-            "</div>",
-    });
-});
-
-
-/*=====================
     header Dropdown Js
  ==========================*/
 $(".dropdown-menu li a").on('click', function () {
@@ -246,18 +224,17 @@ $(".dropdown-menu li a").on('click', function () {
     $(this).closest(".dropdown-menu").prev('.dropdown-toggle').find('img').attr("src", getImage);
 });
 
-
 /*=====================
    active class Js
- ==========================*/
+==========================*/
 $(".product-packege .select-packege li a").click(function () {
     $("li a").removeClass("active");
     $(this).addClass("active");
 });
 
 /*=====================
-   Scroll down header fix js
- ==========================*/
+    Scroll down header fix js
+==========================*/
 $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
         $('header').addClass('active')
@@ -266,34 +243,15 @@ $(window).scroll(function () {
     }
 });
 
-
-/*=====================
-   user-dashboard profile change js
- ==========================*/
-function readURL(uploader) {
-    $('.update_img').attr('src',
-        window.URL.createObjectURL(uploader.files[0]));
-};
-
-/*=====================
-  Wishlist box remove js
- ==========================*/
-$(".close_button").click(function () {
-    $(this).closest(".product-box-contain").fadeOut("slow", function () {
-        $(this).closest(".product-box-contain").remove();
-    });
-});
-
 /*=====================
    Category Box js
- ==========================*/
+==========================*/
 $(".mobile-category").click(function () {
     $(".bg-overlay, .category-dropdown").addClass("show");
 });
 $(".close-button, .bg-overlay").click(function () {
     $(".bg-overlay, .category-dropdown").removeClass("show");
 });
-
 
 /*=====================
    category box js
@@ -324,14 +282,13 @@ if (contentwidth < "767") {
 
 /*=====================
    Sidebar Hide & Show Js
- ==========================*/
+==========================*/
 $(".navbar-toggler-icon-2").click(function () {
     $(".bg-overlay, .sidebar-col").addClass("show");
 });
 $(".bg-overlay").click(function () {
     $(".bg-overlay, .sidebar-col").removeClass("show");
 });
-
 /**=====================
     Quantity js
 ==========================**/
@@ -343,6 +300,24 @@ $('.qty-right-plus').click(function () {
 $('.qty-left-minus').click(function () {
     if ($(this).next().val() > 1) {
         if ($(this).next().val() > 1) $(this).next().val(+$(this).next().val() - 1);
+    }
+});
+
+/*=====================
+    Quantity js
+==========================*/
+$('.qty-box .quantity-right-plus').on('click', function () {
+    var $qty = $(this).parents(".qty-box").find(".input-number");
+    var currentVal = parseInt($qty.val(), 10);
+    if (!isNaN(currentVal)) {
+        $qty.val(currentVal + 0);
+    }
+});
+$('.qty-box .quantity-left-minus').on('click', function () {
+    var $qty = $(this).parents(".qty-box").find(".input-number");
+    var currentVal = parseInt($qty.val(), 10);
+    if (!isNaN(currentVal) && currentVal > 0) {
+        $qty.val(currentVal - 0);
     }
 });
 
@@ -380,4 +355,13 @@ $(window).on('load resize', function () {
             });
         });
     }
+});
+
+/*=====================
+   Wishlist box remove js
+==========================*/
+$(".close_button").click(function () {
+    $(this).closest(".product-box-contain").fadeOut("slow", function () {
+        $(this).closest(".product-box-contain").remove();
+    });
 });

@@ -1,6 +1,511 @@
 ﻿@{
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<!---------------------------------------------------------------- Cabeçalho --------------------------------------------------------------------->
+<section class="breadscrumb-section pt-0">
+    <div class="container-fluid-lg">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadscrumb-contain">
+                    <h2>Carrinho</h2>
+                    <nav>
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item">
+                                <a asp-area="" asp-controller="Home" asp-action="Index">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                                        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li aria-current="page">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short icon-margin" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>Carrinho
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------------------------------------------------------- Carrinho --------------------------------------------------------------------->
+<section class="cart-section section-b-space">
+    <div class="container-fluid">
+        <div class="row g-sm-5 g-3">
+            <div class="col-xxl-9">
+                <div class="cart-table">
+                    <div class="table-responsive-xl">
+                        <table class="table">
+                            <tbody>
+
+                                <tr class="product-box-contain">
+                                    <td class="product-detail">
+                                        <div class="product border-0">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#view" class="product-image">
+                                                <img src="~/img/produto/1.png"
+                                                    class="img-fluid blur-up lazyload" alt="">
+                                            </a>
+                                            <div class="product-detail">
+                                                <ul>
+                                                    <li class="name">
+                                                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#view">Morango</a>
+                                                    </li>
+
+                                                <li class="text-content"><span class="text-title">Vendido por:</span> Epa</li>
+
+                                                    <li class="text-content">
+                                                        <span class="text-title">Quantidade:</span> 500 g</li>
+                                                    <li>
+                                                        <h5 class="text-content d-inline-block">Preço :</h5>
+                                                        <span>R$00,00</span>
+                                                    </li>
+
+                                                    <li class="quantity-price-box">
+                                                        <div class="cart_qty">
+                                                            <div class="input-group">
+                                                                <button type="button" class="btn qty-left-minus"
+                                                                    data-type="minus" data-field="">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+                                                                    <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+                                                                </svg>
+                                                                </button>
+                                                                <input class="form-control input-number qty-input"
+                                                                    type="text" name="quantity" value="0">
+                                                                <button type="button" class="btn qty-right-plus"
+                                                                    data-type="plus" data-field="">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                                                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                                                </svg>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>
+                                                        <h5>Total: R$00,00</h5>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <h4 class="table-title text-content">Preço</h4>
+                                        <h5>R$00,00</h5>
+                                    </td>
+
+                                    <td class="quantity">
+                                        <h4 class="table-title text-content">Quantidade</h4>
+                                        <div class="quantity-price">
+                                            <div class="cart_qty">
+                                                <div class="input-group">
+                                                    <button type="button" class="btn qty-left-minus"
+                                                        data-type="minus" data-field="">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+                                                        <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+                                                    </svg>
+                                                    </button>
+                                                    <input class="form-control input-number qty-input" type="text"
+                                                        name="quantity" value="0">
+                                                    <button type="button" class="btn qty-right-plus"
+                                                        data-type="plus" data-field="">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                                    </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td class="subtotal">
+                                        <h4 class="table-title text-content">Total</h4>
+                                        <h5>R$00,00</h5>
+                                    </td>
+
+                                    <td class="save-remove">
+                                        <h4 class="table-title text-content">Excluir</h4>
+                                    <a class="remove close_button" href="javascript:void(0)">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                            <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z" />
+                                        </svg>
+                                    </a>
+                                    </td>
+                                </tr>
+
+                                <tr class="product-box-contain">
+                                    <td class="product-detail">
+                                        <div class="product border-0">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#view" class="product-image">
+                                                <img src="~/img/produto/1.png"
+                                                     class="img-fluid blur-up lazyload" alt="">
+                                            </a>
+                                            <div class="product-detail">
+                                                <ul>
+                                                    <li class="name">
+                                                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#view">Morango</a>
+                                                    </li>
+
+                                                    <li class="text-content"><span class="text-title">Vendido por:</span> Epa</li>
+
+                                                    <li class="text-content">
+                                                        <span class="text-title">Quantidade:</span> 500 g
+                                                    </li>
+                                                    <li>
+                                                        <h5 class="text-content d-inline-block">Preço :</h5>
+                                                        <span>R$00,00</span>
+                                                    </li>
+
+                                                    <li class="quantity-price-box">
+                                                        <div class="cart_qty">
+                                                            <div class="input-group">
+                                                                <button type="button" class="btn qty-left-minus"
+                                                                        data-type="minus" data-field="">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+                                                                        <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+                                                                    </svg>
+                                                                </button>
+                                                                <input class="form-control input-number qty-input"
+                                                                       type="text" name="quantity" value="0">
+                                                                <button type="button" class="btn qty-right-plus"
+                                                                        data-type="plus" data-field="">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                                                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>
+                                                        <h5>Total: R$00,00</h5>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <h4 class="table-title text-content">Preço</h4>
+                                        <h5>R$00,00</h5>
+                                    </td>
+
+                                    <td class="quantity">
+                                        <h4 class="table-title text-content">Quantidade</h4>
+                                        <div class="quantity-price">
+                                            <div class="cart_qty">
+                                                <div class="input-group">
+                                                    <button type="button" class="btn qty-left-minus"
+                                                            data-type="minus" data-field="">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+                                                            <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+                                                        </svg>
+                                                    </button>
+                                                    <input class="form-control input-number qty-input" type="text"
+                                                           name="quantity" value="0">
+                                                    <button type="button" class="btn qty-right-plus"
+                                                            data-type="plus" data-field="">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td class="subtotal">
+                                        <h4 class="table-title text-content">Total</h4>
+                                        <h5>R$00,00</h5>
+                                    </td>
+
+                                    <td class="save-remove">
+                                        <h4 class="table-title text-content">Excluir</h4>
+                                        <a class="remove close_button" href="javascript:void(0)">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                                <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z" />
+                                            </svg>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr class="product-box-contain">
+                                    <td class="product-detail">
+                                        <div class="product border-0">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#view" class="product-image">
+                                                <img src="~/img/produto/1.png"
+                                                     class="img-fluid blur-up lazyload" alt="">
+                                            </a>
+                                            <div class="product-detail">
+                                                <ul>
+                                                    <li class="name">
+                                                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#view">Morango</a>
+                                                    </li>
+
+                                                    <li class="text-content"><span class="text-title">Vendido por:</span> Epa</li>
+
+                                                    <li class="text-content">
+                                                        <span class="text-title">Quantidade:</span> 500 g
+                                                    </li>
+                                                    <li>
+                                                        <h5 class="text-content d-inline-block">Preço :</h5>
+                                                        <span>R$00,00</span>
+                                                    </li>
+
+                                                    <li class="quantity-price-box">
+                                                        <div class="cart_qty">
+                                                            <div class="input-group">
+                                                                <button type="button" class="btn qty-left-minus"
+                                                                        data-type="minus" data-field="">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+                                                                        <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+                                                                    </svg>
+                                                                </button>
+                                                                <input class="form-control input-number qty-input"
+                                                                       type="text" name="quantity" value="0">
+                                                                <button type="button" class="btn qty-right-plus"
+                                                                        data-type="plus" data-field="">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                                                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>
+                                                        <h5>Total: R$00,00</h5>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <h4 class="table-title text-content">Preço</h4>
+                                        <h5>R$00,00</h5>
+                                    </td>
+
+                                    <td class="quantity">
+                                        <h4 class="table-title text-content">Quantidade</h4>
+                                        <div class="quantity-price">
+                                            <div class="cart_qty">
+                                                <div class="input-group">
+                                                    <button type="button" class="btn qty-left-minus"
+                                                            data-type="minus" data-field="">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+                                                            <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+                                                        </svg>
+                                                    </button>
+                                                    <input class="form-control input-number qty-input" type="text"
+                                                           name="quantity" value="0">
+                                                    <button type="button" class="btn qty-right-plus"
+                                                            data-type="plus" data-field="">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                                            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td class="subtotal">
+                                        <h4 class="table-title text-content">Total</h4>
+                                        <h5>R$00,00</h5>
+                                    </td>
+
+                                    <td class="save-remove">
+                                        <h4 class="table-title text-content">Excluir</h4>
+                                        <a class="remove close_button" href="javascript:void(0)">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                                <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z" />
+                                            </svg>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-3">
+                <div class="summery-box p-sticky">
+                    <div class="summery-header">
+                        <h3>
+                            Total do carrinho
+                        </h3>
+                    </div>
+
+                    <div class="summery-contain">
+                        <div class="coupon-cart">
+                            <h6 class="text-content mb-2">
+                                Aplicar cupom
+                            </h6>
+                            <div class="mb-3 coupon-box input-group">
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Insira o código do cupom">
+                                <button class="btn-apply">Aplicar</button>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <h4>Subtotal</h4>
+                                <h4 class="price">R$ 00,00</h4>
+                            </li>
+
+                            <li>
+                                <h4>Desconto de cupom</h4>
+                                <h4 class="price">R$ 00,00</h4>
+                            </li>
+
+                            <li class="align-items-start">
+                                <h4>Envio</h4>
+                                <h4 class="price text-end">R$ 00,00</h4>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="summery-total">
+                        <li class="list-total border-top-0">
+                            <h4>Total</h4>
+                            <h4 class="price theme-color">R$ 00,00</h4>
+                        </li>
+                    </ul>
+
+                    <div class="button-group cart-button">
+                        <ul>
+                            <li>
+                                <button onclick="location.href = '#';"
+                                    class="btn btn-animation proceed-btn fw-bold">Finalizar compra</button>
+                            </li>
+
+                            <li>
+                                <button onclick="location.href = '.';"
+                                    class="btn btn-light shopping-button text-dark">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z" />
+                                    </svg>Continuar comprando
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------------------------------------------------------- Modal --------------------------------------------------------------------->
+<div class="modal fade theme-modal view-modal" id="view" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-sm-down">
+        <div class="modal-content">
+            <div class="modal-header p-0">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row g-sm-4 g-2">
+                    <div class="col-lg-6">
+                        <div class="slider-image">
+                            <img src="~/img/produto/bolo.jpg" class="img-fluid blur-up lazyload" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="right-sidebar-modal">
+                            <h4 class="title-name">Bolo de aniversário 1/2 kg</h4>
+                            <h4 class="price">$00.00</h4>
+                            <div class="product-rating">
+                                <ul class="rating">
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star text-warning" viewBox="0 0 16 16">
+                                            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                                        </svg>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div class="product-detail">
+                                <h4>Detalhes do produto:</h4>
+                                <p>
+                                    Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+                                    Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+                                    Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+                                    Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto.
+                                </p>
+                            </div>
+
+                            <ul class="brand-list">
+                                <li>
+                                    <div class="brand-box">
+                                        <h5>Marca:</h5>
+                                        <h6>Floresta Negra</h6>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="brand-box">
+                                        <h5>Código do produto:</h5>
+                                        <h6>W0690034</h6>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="brand-box">
+                                        <h5>Tipo de Produto:</h5>
+                                        <h6>Bolo De chocolate</h6>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="select-size">
+                                <h4>Peso :</h4>
+                                <select class="form-select select-form-size">
+                                    <option selected>Selecione</option>
+                                    <option value="0">1 kg</option>
+                                    <option value="1.2">1/2 kg</option>
+                                    <option value="1.5">1/5 kg</option>
+                                </select>
+                            </div>
+
+                            <div class="modal-button">
+                                <button onclick="location.href = '#';" class="btn btn-md theme-bg-color text-white add-cart-button icon">
+                                    Adicionar ao carrinho
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

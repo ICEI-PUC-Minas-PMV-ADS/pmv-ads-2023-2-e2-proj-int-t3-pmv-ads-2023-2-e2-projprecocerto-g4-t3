@@ -3,15 +3,29 @@
 @{
     ViewData["Title"] = "Index";
 }
-<div class="d-flex flex-column wrapper">
+
+<!---------------------------------------------------------------- Cabeçalho --------------------------------------------------------------------->
+<section class="breadscrumb-section pt-0">
+    <div class="container-fluid-lg">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadscrumb-contain">
+                    <h2>Usuários</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<div class="d-flex flex-column wrapper pt-3">
     <main class="flex-fill">
         <div class="container-fluid-lg">
             <div class="row">
-            <h2 class="mb-4">Usuários</h2>
 
-            <p>
-                <a class="btn-log-link btn-success" id="btn-left" asp-action="Create">Cadastrar novo Usuário</a>
-            </p>
+                <div class="btn-cad-left mb-3">
+                    <a class="btn-log-link btn-success" asp-action="Create">Cadastrar novo Usuário</a>
+                </div>
 
                 <table class="table table-borderless table-striped table-hover">
                 <thead>

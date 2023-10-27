@@ -4,13 +4,26 @@
     ViewData["Title"] = "Edit";
 }
 
+<!---------------------------------------------------------------- Cabeçalho --------------------------------------------------------------------->
+<section class="breadscrumb-section pt-0">
+    <div class="container-fluid-lg">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadscrumb-contain">
+                    <h2>Editar</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
 
-<div class="d-flex flex-column wrapper">
+<div class="d-flex flex-column wrapper pt-3">
     <main class="flex-fill">
         <div class="container-fluid-lg">
             <div class="row justify-content-center">
                 <div class="col-sm-10 col-md-8 col-lg-6">
-                <form asp-action="Edit">
+                <form class="mt-3" asp-action="Edit">
                     <h2 class="mb-3">Editar cadastro</h2>
 
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
