@@ -41,12 +41,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-003                 | O sistema deve possibilitar a visualização e edição das informações das contas de usuário, incluindo nome, e-mail, papel no sistema, e status de ativação    | Média              |
 | RF-004                 | O sistema deve permitir a criação, visualização, edição e exclusão de informações de clientes, incluindo nome, endereço, e-mail e telefone    | Alta              |
 | RF-005                 | O sistema deve possibilitar a gestão de produtos, permitindo adicionar, editar, remover e categorizar itens, além de especificar informações como nome, preço e descrição.    | Alta              |
-| RF-006                 | O sistema deve permitir a visualização das avaliações e opiniões dos usuários sobre supermercados e produtos, além de possibilitar a remoção de avaliações inadequadas.    | Baixa              |
-| RF-007                 | O sistema deve permitir a gestão das inscrições de usuários em notificações por e-mail, incluindo a adição, remoção e edição de assinaturas relacionadas a promoções e descontos.    | Baixa              |
-| RF-008                 | O sistema deve permitir que os usuários comparem os preços dos produtos em diferentes supermercados.    | Alta              |
-| RF-009                 | O sistema dever permitir o administrador automatizar promoções  de produtos a partir da data de validade.    | Alta              |
-| RF-010                 | O sistema deve permitir que os usuários pesquisem produtos com base em vários critérios, como nome, preço e categoria.     | Média     |
-| RF-011                 | O sistema deve permitir que os usuários visualizem promoções.     | Baixa              |
+| RF-006                 | O sistema deve permitir a gestão das inscrições de usuários em notificações por e-mail, incluindo a adição, remoção e edição de assinaturas relacionadas a promoções e descontos.    | Baixa              |
+| RF-007                 | O sistema deve permitir que os usuários comparem os preços dos produtos em diferentes supermercados.    | Alta              |
+| RF-008                 | O sistema dever permitir o administrador automatizar promoções  de produtos a partir da data de validade.    | Alta              |
+| RF-009                 | O sistema deve permitir que os usuários pesquisem produtos com base em vários critérios, como nome, preço e categoria.     | Média     |
+| RF-010                 | O sistema deve permitir que os usuários visualizem promoções.     | Baixa              |
 
 
 ### Requisitos não Funcionais
