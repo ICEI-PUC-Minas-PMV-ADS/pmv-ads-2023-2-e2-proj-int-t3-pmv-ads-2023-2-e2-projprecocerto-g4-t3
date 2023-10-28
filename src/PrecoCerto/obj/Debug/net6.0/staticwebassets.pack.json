@@ -13,28 +13,52 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\Descontoscupom.jpg",
-      "PackagePath": "staticwebassets\\img\\Descontoscupom.jpg"
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\Carrinho-cheio.png",
+      "PackagePath": "staticwebassets\\img\\Carrinho-cheio.png"
     },
     {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\Ofertasdodia.jpg",
-      "PackagePath": "staticwebassets\\img\\Ofertasdodia.jpg"
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\Ofertasdodia-01.png",
+      "PackagePath": "staticwebassets\\img\\Ofertasdodia-01.png"
     },
     {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\background-1.png",
-      "PackagePath": "staticwebassets\\img\\background-1.png"
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\Ofertasdodia-02.png",
+      "PackagePath": "staticwebassets\\img\\Ofertasdodia-02.png"
     },
     {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\banner-1.png",
-      "PackagePath": "staticwebassets\\img\\banner-1.png"
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\Ofertasdodia-03.png",
+      "PackagePath": "staticwebassets\\img\\Ofertasdodia-03.png"
     },
     {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\banner-2.png",
-      "PackagePath": "staticwebassets\\img\\banner-2.png"
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\OfertasdodiaMb-01.png",
+      "PackagePath": "staticwebassets\\img\\OfertasdodiaMb-01.png"
     },
     {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\basket-1.png",
-      "PackagePath": "staticwebassets\\img\\basket-1.png"
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\OfertasdodiaMb-02.png",
+      "PackagePath": "staticwebassets\\img\\OfertasdodiaMb-02.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\OfertasdodiaMb-03.png",
+      "PackagePath": "staticwebassets\\img\\OfertasdodiaMb-03.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\Sodexo.png",
+      "PackagePath": "staticwebassets\\img\\Sodexo.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\alelo.png",
+      "PackagePath": "staticwebassets\\img\\alelo.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\background-01.png",
+      "PackagePath": "staticwebassets\\img\\background-01.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\banner-01.png",
+      "PackagePath": "staticwebassets\\img\\banner-01.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\banner-02.png",
+      "PackagePath": "staticwebassets\\img\\banner-02.png"
     },
     {
       "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\bg.jpg",
@@ -73,10 +97,6 @@
       "PackagePath": "staticwebassets\\img\\favicon\\site.webmanifest"
     },
     {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\imagensfrutas.jpg",
-      "PackagePath": "staticwebassets\\img\\imagensfrutas.jpg"
-    },
-    {
       "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\logo\\Logo 01.png",
       "PackagePath": "staticwebassets\\img\\logo\\Logo 01.png"
     },
@@ -109,8 +129,24 @@
       "PackagePath": "staticwebassets\\img\\produto\\1.png"
     },
     {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\bolo.jpg",
-      "PackagePath": "staticwebassets\\img\\produto\\bolo.jpg"
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-02.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\Bh-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-01.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Carrefour-01.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-02.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\Carrefour-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-01.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Epa-01.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-02.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\Epa-02.jpg"
     },
     {
       "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\supermecados\\BH.png",
@@ -121,20 +157,8 @@
       "PackagePath": "staticwebassets\\img\\supermecados\\CARREFOUR.png"
     },
     {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\supermecados\\DIA.png",
-      "PackagePath": "staticwebassets\\img\\supermecados\\DIA.png"
-    },
-    {
       "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\supermecados\\EPA.png",
       "PackagePath": "staticwebassets\\img\\supermecados\\EPA.png"
-    },
-    {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\supermecados\\SUPERNOSSO.png",
-      "PackagePath": "staticwebassets\\img\\supermecados\\SUPERNOSSO.png"
-    },
-    {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\supermecados\\verdemar.png",
-      "PackagePath": "staticwebassets\\img\\supermecados\\verdemar.png"
     },
     {
       "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\visa.png",

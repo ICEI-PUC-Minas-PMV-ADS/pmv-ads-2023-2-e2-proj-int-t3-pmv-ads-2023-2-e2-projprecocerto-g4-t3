@@ -50,6 +50,11 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+
+#carousel-radius {
+    border-radius: 8px;
+    box-shadow: 0 0 4   px rgba(60, 60, 60, 0.2);
+}
 /*------------------------------------------ CSS 1 ----------------------------------------------------*/
 .theme-color-1 {
     --theme-color: #4d7c11;
@@ -6889,7 +6894,6 @@ footer .sub-footer {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    border-top: 1px dashed #c1c1c1
 }
 
 @media (max-width: 991px) {
@@ -7332,9 +7336,6 @@ footer .sub-footer ul li {
     line-height: 30px
 }
 
-.footer-section-2 .sub-footer {
-    border-top: 1px solid #ececec
-}
 
 .footer-section-2 .sub-footer-lite {
     border-top: 1px solid rgba(236,236,236,0.2)
