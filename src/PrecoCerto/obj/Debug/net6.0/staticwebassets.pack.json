@@ -125,28 +125,148 @@
       "PackagePath": "staticwebassets\\img\\master-card.png"
     },
     {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\1.png",
-      "PackagePath": "staticwebassets\\img\\produto\\1.png"
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-01.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Bh-01.png"
     },
     {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-02.jpg",
-      "PackagePath": "staticwebassets\\img\\produto\\Bh-02.jpg"
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-02.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Bh-02.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-03.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Bh-03.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-04.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Bh-04.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-05.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Bh-05.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-06.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Bh-06.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-01.png",
+      "PackagePath": "staticwebassets\\img\\produto\\BhModal-01.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-02.png",
+      "PackagePath": "staticwebassets\\img\\produto\\BhModal-02.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-03.png",
+      "PackagePath": "staticwebassets\\img\\produto\\BhModal-03.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-04.png",
+      "PackagePath": "staticwebassets\\img\\produto\\BhModal-04.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-05.png",
+      "PackagePath": "staticwebassets\\img\\produto\\BhModal-05.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-06.png",
+      "PackagePath": "staticwebassets\\img\\produto\\BhModal-06.png"
     },
     {
       "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-01.png",
       "PackagePath": "staticwebassets\\img\\produto\\Carrefour-01.png"
     },
     {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-02.jpg",
-      "PackagePath": "staticwebassets\\img\\produto\\Carrefour-02.jpg"
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-02.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Carrefour-02.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-03.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Carrefour-03.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-04.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Carrefour-04.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-05.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Carrefour-05.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-06.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Carrefour-06.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-01.png",
+      "PackagePath": "staticwebassets\\img\\produto\\CarrefourModal-01.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-02.png",
+      "PackagePath": "staticwebassets\\img\\produto\\CarrefourModal-02.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-03.png",
+      "PackagePath": "staticwebassets\\img\\produto\\CarrefourModal-03.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-04.png",
+      "PackagePath": "staticwebassets\\img\\produto\\CarrefourModal-04.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-05.png",
+      "PackagePath": "staticwebassets\\img\\produto\\CarrefourModal-05.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-06.png",
+      "PackagePath": "staticwebassets\\img\\produto\\CarrefourModal-06.png"
     },
     {
       "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-01.png",
       "PackagePath": "staticwebassets\\img\\produto\\Epa-01.png"
     },
     {
-      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-02.jpg",
-      "PackagePath": "staticwebassets\\img\\produto\\Epa-02.jpg"
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-02.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Epa-02.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-03.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Epa-03.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-04.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Epa-04.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-05.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Epa-05.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-06.png",
+      "PackagePath": "staticwebassets\\img\\produto\\Epa-06.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-01.png",
+      "PackagePath": "staticwebassets\\img\\produto\\EpaModal-01.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-02.png",
+      "PackagePath": "staticwebassets\\img\\produto\\EpaModal-02.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-03.png",
+      "PackagePath": "staticwebassets\\img\\produto\\EpaModal-03.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-04.png",
+      "PackagePath": "staticwebassets\\img\\produto\\EpaModal-04.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-05.png",
+      "PackagePath": "staticwebassets\\img\\produto\\EpaModal-05.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-06.png",
+      "PackagePath": "staticwebassets\\img\\produto\\EpaModal-06.png"
     },
     {
       "Id": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\wwwroot\\img\\supermecados\\BH.png",
