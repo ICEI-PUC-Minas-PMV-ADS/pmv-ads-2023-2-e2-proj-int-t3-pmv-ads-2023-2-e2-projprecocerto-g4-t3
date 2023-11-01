@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\PrecoCerto.csproj": {}
+    "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\PrecoCerto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\PrecoCerto.csproj": {
+    "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\PrecoCerto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\PrecoCerto.csproj",
+        "projectUniqueName": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\PrecoCerto.csproj",
         "projectName": "PrecoCerto",
-        "projectPath": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\PrecoCerto.csproj",
+        "projectPath": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\PrecoCerto.csproj",
         "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simon\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\obj\\",
+        "outputPath": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,25 +46,25 @@
             },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[6.0.22, )"
+              "version": "[6.0.24, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.22, )"
+              "version": "[6.0.24, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.22, )"
+              "version": "[6.0.24, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[6.0.21, )"
+              "version": "[6.0.24, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.22, )"
+              "version": "[6.0.24, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

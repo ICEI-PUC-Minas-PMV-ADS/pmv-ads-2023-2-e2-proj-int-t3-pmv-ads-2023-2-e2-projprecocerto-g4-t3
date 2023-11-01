@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\PrecoCerto",
-    "\\src\\PrecoCerto\\Models"
+    ""
   ],
-  "SelectedNode": "\\src\\PrecoCerto\\Models\\Usuario.cs",
+  "SelectedNode": "\\PrecoCerto.sln",
   "PreviewInSolutionExplorer": false
 }

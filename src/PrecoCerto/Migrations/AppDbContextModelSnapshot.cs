@@ -115,6 +115,7 @@ namespace PrecoCerto.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Descricao")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("EmEstoque")
@@ -123,10 +124,12 @@ namespace PrecoCerto.Migrations
                     b.Property<bool>("EmOferta")
                         .HasColumnType("bit");
 
-                    b.Property<int>("Garantia")
-                        .HasColumnType("int");
+                    b.Property<string>("Marca")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nome")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("Preco")
@@ -136,7 +139,11 @@ namespace PrecoCerto.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Setor")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Tipo")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("Validade")
                         .HasColumnType("datetime2");

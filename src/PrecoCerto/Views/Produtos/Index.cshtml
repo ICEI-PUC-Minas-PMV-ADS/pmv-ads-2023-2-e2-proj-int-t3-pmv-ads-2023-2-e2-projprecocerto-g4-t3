@@ -1,0 +1,112 @@
+﻿@model IEnumerable<PrecoCerto.Models.Produto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!---------------------------------------------------------------- Cabeçalho --------------------------------------------------------------------->
+<section class="breadscrumb-section pt-0">
+    <div class="container-fluid-lg">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadscrumb-contain">
+                    <h2>Produtos</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<div class="d-flex flex-column wrapper pt-3">
+    <main class="flex-fill">
+        <div class="container-fluid-lg">
+            <div class="row">
+
+                <div class="btn-cad-left mb-3">
+                    <a class="btn-log-link btn-success" asp-action="Create">Cadastrar Novo Produto</a>
+                </div>
+
+                <table class="table table-borderless table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Setor)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Nome)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Marca)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Quantidade)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.EmEstoque)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.EmOferta)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Preco)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Descricao)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Validade)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Tipo)
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                @foreach (var item in Model) {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Setor)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Nome)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Marca)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Quantidade)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.EmEstoque)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.EmOferta)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Preco)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Descricao)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Validade)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Tipo)
+                            </td>
+                            <td>
+                                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> 
+                                <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Vizualizar</a> 
+                                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
+                            </td>
+                        </tr>
+                }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </main>
+</div>
