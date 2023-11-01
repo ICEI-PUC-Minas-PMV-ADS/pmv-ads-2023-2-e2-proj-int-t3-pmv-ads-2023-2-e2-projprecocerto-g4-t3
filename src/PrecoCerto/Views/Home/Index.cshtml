@@ -1,4 +1,6 @@
-﻿@{
+﻿@model List<Produto>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -63,6 +65,8 @@
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
                 <div class="row g-8">
+                    @foreach (var produto in Model)
+                    {
                     <div class="col-xxl-2 col-lg-3 col-md-4 col-6 wow fadeInUp">
                         <div class="product-box-4">
                             <div class="product-image">
@@ -126,9 +130,9 @@
                                     </li>
                                 </ul>
                                 <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#view">
-                                    <h5 class="name">Morango</h5>
+                                        <h5 class="name">@produto.Nome</h5>
                                 </a>
-                                <h5 class="price theme-color">$00,00</h5>
+                                    <h5 class="price theme-color">@produto.Preco.ToString("C")</h5>
                                 <div class="price-qty">
                                     <div class="counter-number">
                                         <div class="counter">
@@ -156,7 +160,8 @@
                             </div>
                         </div>
                     </div>
-
+                    }
+<!--------------------------------------------------------------------------------------------------------
                     <div class="col-xxl-2 col-lg-3 col-md-4 col-6 wow fadeInUp" data-wow-delay="0.10s">
                         <div class="product-box-4">
                             <div class="product-image">
@@ -1754,7 +1759,7 @@
                             </div>
                         </div>
                     </div>
-
+------------------------------------------------------------------------------------------------------------>
                 </div>
             </div>
 
@@ -3557,7 +3562,8 @@
 </section>
 
 <!------------------------------------------------------------------ Modal ------------------------------------------------------------------------>
-
+ @foreach (var produto in Model)
+{
 <div class="modal fade theme-modal view-modal" id="view" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-sm-down">
         <div class="modal-content">
@@ -3578,8 +3584,8 @@
 
                     <div class="col-lg-6">
                         <div class="right-sidebar-modal">
-                            <h4 class="title-name">Bolo de aniversário 1/2 kg</h4>
-                            <h4 class="price">$00.00</h4>
+                            <h4 class="title-name">@produto.Nome</h4>
+                                <h4 class="price">@produto.Preco.ToString("C")</h4>
                             <div class="product-rating">
                                 <ul class="rating">
                                     <li>
@@ -3614,46 +3620,57 @@
                             <div class="product-detail">
                                 <h4>Detalhes do produto:</h4>
                                 <p>
-                                    Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                                    Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                                    Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-                                    Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto.
+                                    @produto.Descricao
                                 </p>
                             </div>
 
                             <ul class="brand-list">
+                                
                                 <li>
                                     <div class="brand-box">
                                         <h5>Marca:</h5>
-                                        <h6>Floresta Negra</h6>
+                                        <h6>@produto.Marca</h6>
                                     </div>
                                 </li>
 
                                 <li>
                                     <div class="brand-box">
                                         <h5>Código do produto:</h5>
-                                        <h6>W0690034</h6>
+                                        <h6>@produto.Id</h6>
                                     </div>
                                 </li>
 
                                 <li>
                                     <div class="brand-box">
                                         <h5>Tipo de Produto:</h5>
-                                        <h6>Bolo De chocolate</h6>
+                                        <h6>@produto.Setor</h6>
                                     </div>
                                 </li>
+
+                                    <li>
+                                        <div class="brand-box">
+                                            <h5>Supermercado:</h5>
+                                            <h6>@produto.Tipo</h6>
+                                        </div>
+                                    </li>
                             </ul>
-
-                            <div class="select-size">
-                                <h4>Peso :</h4>
-                                <select class="form-select select-form-size">
-                                    <option selected>Selecione</option>
-                                    <option value="0">1 kg</option>
-                                    <option value="1.2">1/2 kg</option>
-                                    <option value="1.5">1/5 kg</option>
-                                </select>
+                            <div class="price-qty mt-3">
+                                <div class="counter-number">
+                                    <div class="counter">
+                                        <div class="qty-left-minus" data-type="minus" data-field="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+                                                <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+                                            </svg>
+                                        </div>
+                                        <input class="form-control input-number qty-input" type="text" name="quantity" value="0">
+                                        <div class="qty-right-plus" data-type="plus" data-field="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-
                             <div class="modal-button">
                                 <button onclick="location.href = '#';" class="btn btn-md theme-bg-color text-white add-cart-button icon">
                                     Adicionar ao carrinho
@@ -3666,3 +3683,4 @@
         </div>
     </div>
 </div>
+}

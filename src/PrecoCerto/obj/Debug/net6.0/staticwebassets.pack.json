@@ -469,6 +469,86 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\currency.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime\\currency.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\date.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime\\date.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\message.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime\\message.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\number.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime\\number.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\plural.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime\\plural.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\relative-time.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime\\relative-time.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\unit.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime\\unit.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\currency.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize\\currency.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\date.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize\\date.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\message.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize\\message.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\number.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize\\number.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\plural.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize\\plural.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\relative-time.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize\\relative-time.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\unit.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize\\unit.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\node-main.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\node-main.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-globalize\\gulpfile.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\gulpfile.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\jquery.validate.globalize.js"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js"
+    },
+    {
       "Id": "C:\\Users\\simon\\source\\repos\\preco-certo\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },

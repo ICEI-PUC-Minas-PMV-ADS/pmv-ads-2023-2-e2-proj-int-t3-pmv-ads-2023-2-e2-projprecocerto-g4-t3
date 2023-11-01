@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PrecoCerto.Models;
 using System.Diagnostics;
 
@@ -8,14 +9,18 @@ namespace PrecoCerto.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private AppDbContext _appDbContext;
+
+        public HomeController(ILogger<HomeController> logger, AppDbContext appDbContext)
         {
             _logger = logger;
+            _appDbContext = appDbContext;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var produtos = await _appDbContext.produtos.ToListAsync();
+            return View(produtos);
         }
 
         public IActionResult Privacy()

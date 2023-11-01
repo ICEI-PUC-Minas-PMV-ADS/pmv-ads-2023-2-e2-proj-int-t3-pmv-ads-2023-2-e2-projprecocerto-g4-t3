@@ -30,7 +30,7 @@ namespace PrecoCerto.Models
         public bool EmOferta { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o Preco!")]
-        public double Preco { get; set; }
+        public decimal Preco { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar a Descricao!")]
         public string Descricao { get; set; }
