@@ -3,6 +3,9 @@ using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using PrecoCerto.Models;
 using System.Globalization;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using System.IO;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,12 +48,6 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.Run();
-
 var defaultCulture = new CultureInfo("pt-BR");
 var localizationOptions = new RequestLocalizationOptions
 {
@@ -59,3 +56,48 @@ var localizationOptions = new RequestLocalizationOptions
     SupportedUICultures = new List<CultureInfo> { defaultCulture }
 };
 app.UseRequestLocalization(localizationOptions);
+
+// Inserir dados a partir do arquivo SQL
+InserirDadosAPartirDoArquivoSQL(app, app.Environment, app.Services);
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.Run();
+
+void InserirDadosAPartirDoArquivoSQL(WebApplication app, IWebHostEnvironment env, IServiceProvider serviceProvider)
+{
+    using var scope = app.Services.CreateScope();
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+
+    var configuration = app.Configuration.GetSection("AppConfiguration");
+    var operacoesRealizadas = configuration.GetValue<bool>("OperacoesRealizadas");
+
+    if (!operacoesRealizadas)
+    {
+        // Combine o caminho com a pasta wwwroot
+        string filePath = Path.Combine(env.WebRootPath, "sql", "Produtos.sql");
+
+        if (File.Exists(filePath))
+        {
+            string sql = System.IO.File.ReadAllText(filePath);
+
+            // Execute os comandos SQL em lote
+            dbContext.Database.ExecuteSqlRaw(sql);
+
+            dbContext.SaveChanges(); // Salve as alterações no banco de dados
+
+            // Atualize a variável de configuração para indicar que as operações foram realizadas
+            configuration["OperacoesRealizadas"] = "true";
+        }
+        else
+        {
+            Console.WriteLine("O arquivo SQL não foi encontrado.");
+        }
+    }
+    else
+    {
+        Console.WriteLine("Operações já realizadas.");
+    }
+}
