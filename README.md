@@ -1,5 +1,5 @@
 # Preço Certo
-![Modelo 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/504ff155-3297-4237-a017-dd8ef4a71494)
+![LOGO 200](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/74187849/f0c25afc-ee3a-4832-bea8-c8f1f6faab2b)
 
 `ADS-2023-E2`
 
