@@ -21,7 +21,7 @@ namespace PrecoCerto.Controllers
         // GET: Produtos
         public async Task<IActionResult> Index()
         {
-              return View(await _context.produtos.ToListAsync());
+            return View(await _context.produtos.ToListAsync());
         }
 
         // GET: Produtos/Details/5

@@ -14,6 +14,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
+// Configurar o Entity Framework Core para usar o SQL Server
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -85,6 +86,43 @@ void InserirDadosAPartirDoArquivoSQL(WebApplication app, IWebHostEnvironment env
 
             // Execute os comandos SQL em lote
             dbContext.Database.ExecuteSqlRaw(sql);
+
+            // Agora, carregue as imagens da pasta "modalId" e atualize os produtos
+            var produtos = dbContext.produtos.ToList();
+            foreach (var produto in produtos)
+            {
+                string imagemPath = Path.Combine(env.WebRootPath, "img", "produtoId", $"{produto.Id}.png"); // Supondo que as imagens sejam nomeadas com base no ID do produto
+
+                if (File.Exists(imagemPath))
+                {
+                    // Carregue a imagem e atualize o produto
+                    using (var stream = new FileStream(imagemPath, FileMode.Open))
+                    {
+                        using (var memoryStream = new MemoryStream())
+                        {
+                            stream.CopyTo(memoryStream);
+                            produto.Imagem = memoryStream.ToArray();
+                            produto.ImagemMimeType = "image/png"; // Altere o tipo MIME para PNG conforme necessário
+                        }
+                    }
+                }
+
+                // Agora, carregue as imagens da pasta "modalId" e atualize os produtos
+                string modalImagemPath = Path.Combine(env.WebRootPath, "img", "modalId", $"{produto.Id}.png");
+
+                if (File.Exists(modalImagemPath))
+                {
+                    using (var stream = new FileStream(modalImagemPath, FileMode.Open))
+                    {
+                        using (var memoryStream = new MemoryStream())
+                        {
+                            stream.CopyTo(memoryStream);
+                            produto.ModalImagem = memoryStream.ToArray();
+                            produto.ModalImagemMimeType = "image/png"; // Altere o tipo MIME para PNG conforme necessário
+                        }
+                    }
+                }
+            }
 
             dbContext.SaveChanges(); // Salve as alterações no banco de dados
 

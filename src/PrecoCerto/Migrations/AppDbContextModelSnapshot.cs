@@ -127,8 +127,22 @@ namespace PrecoCerto.Migrations
                     b.Property<bool>("EmOferta")
                         .HasColumnType("bit");
 
+                    b.Property<byte[]>("Imagem")
+                        .IsRequired()
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("ImagemMimeType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Marca")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<byte[]>("ModalImagem")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("ModalImagemMimeType")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nome")

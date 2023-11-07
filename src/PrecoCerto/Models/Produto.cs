@@ -41,6 +41,24 @@ namespace PrecoCerto.Models
         [Display(Name = "Supermercados")]
         [Required(ErrorMessage = "Obrigatório informar o Supermercado!")]
         public TipoSupermercado Tipo { get; set; }
+
+        // Propriedade para armazenar os dados da imagem (formato binário)
+        [Display(Name = "Imagem do Produto")]
+        [Required(ErrorMessage = "Obrigatório fornecer uma imagem.")]
+        public byte[] Imagem { get; set; }
+
+        // Propriedade para o tipo MIME da imagem
+        [Display(Name = "Tipo de Imagem")]
+        [Required(ErrorMessage = "Obrigatório informar o tipo da imagem.")]
+        public string ImagemMimeType { get; set; }
+
+        // Propriedade para armazenar os dados da imagem do modal (formato binário)
+        [Display(Name = "Imagem do Modal")]
+        public byte[] ModalImagem { get; set; }
+
+        // Propriedade para o tipo MIME da imagem do modal
+        [Display(Name = "Tipo de Imagem do Modal")]
+        public string ModalImagemMimeType { get; set; }
     }
 
     public enum TipoSupermercado
