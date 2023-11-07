@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xlLZ8dUgQT6oWopZFY0jX9QC8nIl+epfvMeXhl0Vaow=",
+  "Hash": "8k2Obw9DqC+4Jgsle0eu0z/vCZSo6XkuJlrHC9vrCH0=",
   "Source": "PrecoCerto",
   "BasePath": "_content/PrecoCerto",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PrecoCerto\\wwwroot",
       "Source": "PrecoCerto",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PrecoCerto.styles.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PrecoCerto.styles.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "PrecoCerto.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PrecoCerto.styles.css"
+      "OriginalItemSpec": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PrecoCerto.styles.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PrecoCerto.bundle.scp.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PrecoCerto.bundle.scp.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "PrecoCerto.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PrecoCerto.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PrecoCerto.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\css\\site.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\favicon.ico",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\alelo.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\alelo.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/alelo.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\img\\alelo.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\background-01.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\background-01.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/background-01.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\img\\background-01.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\banner-01.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\banner-01.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/banner-01.png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner-01.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\banner-02.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\banner-02.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/banner-02.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner-02.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\bg.jpg",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\bg.jpg",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/bg.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\img\\bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\Carrinho-cheio.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\Carrinho-cheio.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/Carrinho-cheio.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Carrinho-cheio.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\circle.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\circle.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/circle.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\img\\circle.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\favicon\\android-chrome-192x192.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\favicon\\android-chrome-192x192.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/favicon/android-chrome-192x192.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon\\android-chrome-192x192.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\favicon\\android-chrome-512x512.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\favicon\\android-chrome-512x512.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/favicon/android-chrome-512x512.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon\\android-chrome-512x512.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\favicon\\apple-touch-icon.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\favicon\\apple-touch-icon.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/favicon/apple-touch-icon.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon\\apple-touch-icon.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\favicon\\favicon.ico",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\favicon\\favicon.ico",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/favicon/favicon.ico",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\favicon\\favicon-16x16.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\favicon\\favicon-16x16.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/favicon/favicon-16x16.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon\\favicon-16x16.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\favicon\\favicon-32x32.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\favicon\\favicon-32x32.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/favicon/favicon-32x32.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon\\favicon-32x32.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\favicon\\site.webmanifest",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\favicon\\site.webmanifest",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/favicon/site.webmanifest",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon\\site.webmanifest"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\Logo 01.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\Logo 01.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/logo/Logo 01.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo\\Logo 01.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\Logo 03.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\Logo 03.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/logo/Logo 03.png",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo\\Logo 03.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\Logo 04.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\Logo 04.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/logo/Logo 04.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo\\Logo 04.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\Logo 05.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\Logo 05.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/logo/Logo 05.png",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo\\Logo 05.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\Logo 06.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\Logo 06.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/logo/Logo 06.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo\\Logo 06.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\Logo 07.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\Logo 07.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/logo/Logo 07.png",
       "AssetKind": "All",
@@ -425,10 +425,27 @@
       "OriginalItemSpec": "wwwroot\\img\\logo\\Logo 07.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\master-card.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\LOGO 200.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "BasePath": "_content/PrecoCerto",
+      "RelativePath": "img/logo/LOGO 200.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo\\LOGO 200.png"
+    },
+    {
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\master-card.png",
+      "SourceId": "PrecoCerto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/master-card.png",
       "AssetKind": "All",
@@ -442,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\img\\master-card.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\Ofertasdodia-01.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\Ofertasdodia-01.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/Ofertasdodia-01.png",
       "AssetKind": "All",
@@ -459,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Ofertasdodia-01.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\Ofertasdodia-02.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\Ofertasdodia-02.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/Ofertasdodia-02.png",
       "AssetKind": "All",
@@ -476,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Ofertasdodia-02.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\Ofertasdodia-03.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\Ofertasdodia-03.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/Ofertasdodia-03.png",
       "AssetKind": "All",
@@ -493,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Ofertasdodia-03.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\OfertasdodiaMb-01.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\OfertasdodiaMb-01.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/OfertasdodiaMb-01.png",
       "AssetKind": "All",
@@ -510,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\img\\OfertasdodiaMb-01.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\OfertasdodiaMb-02.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\OfertasdodiaMb-02.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/OfertasdodiaMb-02.png",
       "AssetKind": "All",
@@ -527,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\img\\OfertasdodiaMb-02.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\OfertasdodiaMb-03.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\OfertasdodiaMb-03.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/OfertasdodiaMb-03.png",
       "AssetKind": "All",
@@ -544,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\img\\OfertasdodiaMb-03.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-01.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-01.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Bh-01.png",
       "AssetKind": "All",
@@ -561,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Bh-01.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-02.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-02.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Bh-02.png",
       "AssetKind": "All",
@@ -578,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Bh-02.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-03.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-03.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Bh-03.png",
       "AssetKind": "All",
@@ -595,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Bh-03.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-04.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-04.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Bh-04.png",
       "AssetKind": "All",
@@ -612,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Bh-04.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-05.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-05.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Bh-05.png",
       "AssetKind": "All",
@@ -629,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Bh-05.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-06.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Bh-06.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Bh-06.png",
       "AssetKind": "All",
@@ -646,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Bh-06.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-01.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-01.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/BhModal-01.png",
       "AssetKind": "All",
@@ -663,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\BhModal-01.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-02.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-02.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/BhModal-02.png",
       "AssetKind": "All",
@@ -680,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\BhModal-02.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-03.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-03.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/BhModal-03.png",
       "AssetKind": "All",
@@ -697,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\BhModal-03.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-04.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-04.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/BhModal-04.png",
       "AssetKind": "All",
@@ -714,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\BhModal-04.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-05.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-05.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/BhModal-05.png",
       "AssetKind": "All",
@@ -731,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\BhModal-05.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-06.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\BhModal-06.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/BhModal-06.png",
       "AssetKind": "All",
@@ -748,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\BhModal-06.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-01.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-01.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Carrefour-01.png",
       "AssetKind": "All",
@@ -765,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Carrefour-01.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-02.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-02.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Carrefour-02.png",
       "AssetKind": "All",
@@ -782,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Carrefour-02.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-03.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-03.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Carrefour-03.png",
       "AssetKind": "All",
@@ -799,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Carrefour-03.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-04.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-04.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Carrefour-04.png",
       "AssetKind": "All",
@@ -816,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Carrefour-04.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-05.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-05.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Carrefour-05.png",
       "AssetKind": "All",
@@ -833,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Carrefour-05.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-06.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Carrefour-06.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Carrefour-06.png",
       "AssetKind": "All",
@@ -850,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Carrefour-06.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-01.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-01.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/CarrefourModal-01.png",
       "AssetKind": "All",
@@ -867,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\CarrefourModal-01.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-02.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-02.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/CarrefourModal-02.png",
       "AssetKind": "All",
@@ -884,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\CarrefourModal-02.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-03.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-03.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/CarrefourModal-03.png",
       "AssetKind": "All",
@@ -901,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\CarrefourModal-03.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-04.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-04.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/CarrefourModal-04.png",
       "AssetKind": "All",
@@ -918,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\CarrefourModal-04.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-05.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-05.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/CarrefourModal-05.png",
       "AssetKind": "All",
@@ -935,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\CarrefourModal-05.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-06.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\CarrefourModal-06.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/CarrefourModal-06.png",
       "AssetKind": "All",
@@ -952,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\CarrefourModal-06.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-01.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-01.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Epa-01.png",
       "AssetKind": "All",
@@ -969,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Epa-01.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-02.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-02.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Epa-02.png",
       "AssetKind": "All",
@@ -986,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Epa-02.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-03.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-03.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Epa-03.png",
       "AssetKind": "All",
@@ -1003,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Epa-03.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-04.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-04.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Epa-04.png",
       "AssetKind": "All",
@@ -1020,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Epa-04.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-05.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-05.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Epa-05.png",
       "AssetKind": "All",
@@ -1037,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Epa-05.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-06.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\Epa-06.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/Epa-06.png",
       "AssetKind": "All",
@@ -1054,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\Epa-06.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-01.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-01.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/EpaModal-01.png",
       "AssetKind": "All",
@@ -1071,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\EpaModal-01.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-02.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-02.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/EpaModal-02.png",
       "AssetKind": "All",
@@ -1088,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\EpaModal-02.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-03.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-03.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/EpaModal-03.png",
       "AssetKind": "All",
@@ -1105,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\EpaModal-03.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-04.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-04.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/EpaModal-04.png",
       "AssetKind": "All",
@@ -1122,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\EpaModal-04.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-05.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-05.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/EpaModal-05.png",
       "AssetKind": "All",
@@ -1139,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\EpaModal-05.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-06.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produto\\EpaModal-06.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/produto/EpaModal-06.png",
       "AssetKind": "All",
@@ -1156,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produto\\EpaModal-06.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\Sodexo.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\Sodexo.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/Sodexo.png",
       "AssetKind": "All",
@@ -1173,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Sodexo.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\supermecados\\BH.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\supermecados\\BH.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/supermecados/BH.png",
       "AssetKind": "All",
@@ -1190,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\supermecados\\BH.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\supermecados\\CARREFOUR.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\supermecados\\CARREFOUR.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/supermecados/CARREFOUR.png",
       "AssetKind": "All",
@@ -1207,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\img\\supermecados\\CARREFOUR.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\supermecados\\EPA.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\supermecados\\EPA.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/supermecados/EPA.png",
       "AssetKind": "All",
@@ -1224,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\img\\supermecados\\EPA.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\visa.png",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\visa.png",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "img/visa.png",
       "AssetKind": "All",
@@ -1241,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\img\\visa.png"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\js\\site.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1258,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1275,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1292,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1309,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1326,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1343,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1360,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1377,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1394,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1411,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1428,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1445,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1462,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1479,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1496,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1513,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1530,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1547,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1564,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1581,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1598,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1615,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1632,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1649,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1666,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1683,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1700,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1717,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1734,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1751,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1768,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1785,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1802,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1819,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1836,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1853,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1870,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1887,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1904,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1921,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1938,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1955,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1972,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1989,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2006,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2023,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize.js",
       "AssetKind": "All",
@@ -2040,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\currency.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\currency.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize/currency.js",
       "AssetKind": "All",
@@ -2057,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize\\currency.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\date.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\date.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize/date.js",
       "AssetKind": "All",
@@ -2074,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize\\date.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\message.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\message.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize/message.js",
       "AssetKind": "All",
@@ -2091,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize\\message.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\number.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\number.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize/number.js",
       "AssetKind": "All",
@@ -2108,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize\\number.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\plural.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\plural.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize/plural.js",
       "AssetKind": "All",
@@ -2125,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize\\plural.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\relative-time.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\relative-time.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize/relative-time.js",
       "AssetKind": "All",
@@ -2142,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize\\relative-time.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\unit.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize\\unit.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize/unit.js",
       "AssetKind": "All",
@@ -2159,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize\\unit.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize-runtime.js",
       "AssetKind": "All",
@@ -2176,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\currency.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\currency.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize-runtime/currency.js",
       "AssetKind": "All",
@@ -2193,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime\\currency.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\date.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\date.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize-runtime/date.js",
       "AssetKind": "All",
@@ -2210,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime\\date.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\message.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\message.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize-runtime/message.js",
       "AssetKind": "All",
@@ -2227,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime\\message.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\number.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\number.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize-runtime/number.js",
       "AssetKind": "All",
@@ -2244,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime\\number.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\plural.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\plural.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize-runtime/plural.js",
       "AssetKind": "All",
@@ -2261,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime\\plural.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\relative-time.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\relative-time.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize-runtime/relative-time.js",
       "AssetKind": "All",
@@ -2278,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime\\relative-time.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\unit.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\unit.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/globalize-runtime/unit.js",
       "AssetKind": "All",
@@ -2295,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime\\unit.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\node-main.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\globalize\\dist\\node-main.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/globalize/dist/node-main.js",
       "AssetKind": "All",
@@ -2312,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\node-main.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2329,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2346,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2363,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2380,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2397,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2414,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2431,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2448,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2465,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-globalize\\gulpfile.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-globalize\\gulpfile.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery-validation-globalize/gulpfile.js",
       "AssetKind": "All",
@@ -2482,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\gulpfile.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery-validation-globalize/jquery.validate.globalize.js",
       "AssetKind": "All",
@@ -2499,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery-validation-globalize/jquery.validate.globalize.min.js",
       "AssetKind": "All",
@@ -2516,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2533,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2550,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2567,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\sql\\Produtos.sql",
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\sql\\Produtos.sql",
       "SourceId": "PrecoCerto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
       "BasePath": "_content/PrecoCerto",
       "RelativePath": "sql/Produtos.sql",
       "AssetKind": "All",

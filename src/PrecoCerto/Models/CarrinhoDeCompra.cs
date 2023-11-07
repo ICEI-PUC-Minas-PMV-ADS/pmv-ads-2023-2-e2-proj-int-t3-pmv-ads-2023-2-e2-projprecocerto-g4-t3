@@ -9,9 +9,11 @@ namespace PrecoCerto.Models
         [Key]
         public int Id { get; set; }
 
-        public double ValorTotal { get; set; }
+        public string NomeProduto { get; set; }
 
         public int QuantidadeItens { get; set; }
+
+        public decimal ValorTotal { get; set; }
 
         // Chave estrangeira para Usuario
         public int UsuarioId { get; set; }

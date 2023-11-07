@@ -30,14 +30,17 @@ namespace PrecoCerto.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<string>("NomeProduto")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("QuantidadeItens")
                         .HasColumnType("int");
 
                     b.Property<int>("UsuarioId")
                         .HasColumnType("int");
 
-                    b.Property<double>("ValorTotal")
-                        .HasColumnType("float");
+                    b.Property<decimal>("ValorTotal")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 

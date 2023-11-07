@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using PrecoCerto.Models;
 using System.Diagnostics;
+using System.Linq;
 
 namespace PrecoCerto.Controllers
 {
@@ -17,15 +18,25 @@ namespace PrecoCerto.Controllers
             _appDbContext = appDbContext;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index([FromQuery] string Busca)
         {
-            var produtos = await _appDbContext.produtos.ToListAsync();
+            IQueryable<Produto> produtosQuery = _appDbContext.produtos;
+
+            if (!string.IsNullOrEmpty(Busca))
+            {
+                produtosQuery = produtosQuery.Where(p => p.Nome.ToUpper().Contains(Busca.ToUpper()));
+            }
+
+            var produtos = await produtosQuery.ToListAsync();
+
             return View(produtos);
         }
 
-        public IActionResult Privacy()
+        // Apagar no final da entrega
+        public async Task<IActionResult> Privacy()
         {
-            return View();
+            var produtos = await _appDbContext.produtos.ToListAsync();
+            return View(produtos);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\PrecoCerto.csproj": {}
+    "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\PrecoCerto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\PrecoCerto.csproj": {
+    "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\PrecoCerto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\PrecoCerto.csproj",
+        "projectUniqueName": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\PrecoCerto.csproj",
         "projectName": "PrecoCerto",
-        "projectPath": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\PrecoCerto.csproj",
+        "projectPath": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\PrecoCerto.csproj",
         "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simon\\Source\\Repos\\pmv-ads-2023\\src\\PrecoCerto\\obj\\",
+        "outputPath": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
