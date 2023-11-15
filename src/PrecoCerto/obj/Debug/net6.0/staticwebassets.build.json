@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KQ1xO5Z6YGh/Zt/hQAGRlwl38wu8iIzGDhkEKddKS1s=",
+  "Hash": "6BCrkMlkxD4P4ngWWZzgORnZ6lwhWsc2a340iw+onsA=",
   "Source": "PrecoCerto",
   "BasePath": "_content/PrecoCerto",
   "Mode": "Default",
@@ -321,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\favicon\\site.webmanifest"
+    },
+    {
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\log-in.png",
+      "SourceId": "PrecoCerto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "BasePath": "_content/PrecoCerto",
+      "RelativePath": "img/log-in.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\log-in.png"
     },
     {
       "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\Logo 01.png",
@@ -1171,6 +1188,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\produtoId\\9.png"
+    },
+    {
+      "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\sign-up.png",
+      "SourceId": "PrecoCerto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\",
+      "BasePath": "_content/PrecoCerto",
+      "RelativePath": "img/sign-up.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\sign-up.png"
     },
     {
       "Identity": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\Sodexo.png",

@@ -32,13 +32,6 @@ namespace PrecoCerto.Controllers
             return View(produtos);
         }
 
-        // Apagar no final da entrega
-        public async Task<IActionResult> Privacy()
-        {
-            var produtos = await _appDbContext.produtos.ToListAsync();
-            return View(produtos);
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

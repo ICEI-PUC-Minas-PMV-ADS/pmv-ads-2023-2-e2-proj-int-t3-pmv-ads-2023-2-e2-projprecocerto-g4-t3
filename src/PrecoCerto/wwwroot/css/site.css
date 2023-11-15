@@ -1364,7 +1364,8 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     height: 31px;
     background-color: #fff;
     white-space: nowrap;
-    opacity: 1
+    opacity: 1;
+    border-radius: 7px;
 }
 
 [dir="rtl"] .theme-form-floating > .form-control:not(:-moz-placeholder-shown) ~ label {

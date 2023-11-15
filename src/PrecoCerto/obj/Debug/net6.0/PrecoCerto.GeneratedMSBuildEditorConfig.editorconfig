@@ -16,32 +16,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\simon\source\repos\pmv-ads-2023\src\PrecoCerto
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/simon/source/repos/pmv-ads-2023/src/PrecoCerto/Views/CarrinhoDeCompras/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9EZUNvbXByYXNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/simon/source/repos/pmv-ads-2023/src/PrecoCerto/Views/CarrinhoDeCompras/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9EZUNvbXByYXNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/simon/source/repos/pmv-ads-2023/src/PrecoCerto/Views/CarrinhoDeCompras/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9EZUNvbXByYXNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/simon/source/repos/pmv-ads-2023/src/PrecoCerto/Views/CarrinhoDeCompras/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9EZUNvbXByYXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/simon/source/repos/pmv-ads-2023/src/PrecoCerto/Views/CarrinhoDeCompras/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9EZUNvbXByYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/simon/source/repos/pmv-ads-2023/src/PrecoCerto/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/simon/source/repos/pmv-ads-2023/src/PrecoCerto/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/simon/source/repos/pmv-ads-2023/src/PrecoCerto/Views/Pedidos/Create.cshtml]

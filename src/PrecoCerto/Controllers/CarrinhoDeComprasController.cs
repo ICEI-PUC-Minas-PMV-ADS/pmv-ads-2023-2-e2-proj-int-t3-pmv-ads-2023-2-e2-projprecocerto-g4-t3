@@ -1,167 +1,88 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PrecoCerto.Models;
+using System.Linq;
 
 namespace PrecoCerto.Controllers
 {
     public class CarrinhoDeComprasController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly CarrinhoDeCompra _carrinho;
 
-        public CarrinhoDeComprasController(AppDbContext context)
+        public CarrinhoDeComprasController(AppDbContext context, CarrinhoDeCompra carrinho)
         {
             _context = context;
+            _carrinho = carrinho;
         }
 
-        // GET: CarrinhoDeCompras
-        public async Task<IActionResult> Index()
+        private decimal CalcularValorTotal(CarrinhoViewModel carrinhoViewModel)
         {
-            var appDbContext = _context.CarrinhoDeCompras.Include(c => c.Usuario);
-            return View(await appDbContext.ToListAsync());
+            return carrinhoViewModel.Produtos.Sum(produto => produto.Preco);
         }
 
-        // GET: CarrinhoDeCompras/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public IActionResult Index()
         {
-            if (id == null || _context.CarrinhoDeCompras == null)
-            {
-                return NotFound();
-            }
+            CarrinhoViewModel carrinhoViewModel = ObterCarrinhoViewModel();
 
-            var carrinhoDeCompra = await _context.CarrinhoDeCompras
-                .Include(c => c.Usuario)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (carrinhoDeCompra == null)
-            {
-                return NotFound();
-            }
+            // Calcula o valor total do carrinho
+            carrinhoViewModel.ValorTotal = carrinhoViewModel.Produtos.Sum(p => p.Preco);
 
-            return View(carrinhoDeCompra);
+            return View(carrinhoViewModel);
         }
 
-        // GET: CarrinhoDeCompras/Create
-        public IActionResult Create()
+        public IActionResult AdicionarAoCarrinho(int id)
         {
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email");
-            return View();
+            var produto = _context.produtos.Find(id);
+            if (produto != null)
+            {
+                CarrinhoViewModel carrinhoViewModel = ObterCarrinhoViewModel();
+
+                // Adiciona o produto ao carrinho de produtos na ViewModel
+                carrinhoViewModel.Produtos.Add(produto);
+
+                // Recalcula o valor total
+                carrinhoViewModel.ValorTotal = CalcularValorTotal(carrinhoViewModel);
+
+                // Atualiza a sessão com a ViewModel atualizada
+                SalvarCarrinhoViewModel(carrinhoViewModel);
+            }
+
+            return RedirectToAction("Index");
         }
 
-        // POST: CarrinhoDeCompras/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,NomeProduto,QuantidadeItens,ValorTotal,UsuarioId")] CarrinhoDeCompra carrinhoDeCompra)
+        public IActionResult RemoverDoCarrinho(int id)
         {
-            if (ModelState.IsValid)
+            CarrinhoViewModel carrinhoViewModel = ObterCarrinhoViewModel();
+
+            // Remove o produto do carrinho de produtos na ViewModel
+            var produtoToRemove = carrinhoViewModel.Produtos.FirstOrDefault(p => p.Id == id);
+            if (produtoToRemove != null)
             {
-                _context.Add(carrinhoDeCompra);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                carrinhoViewModel.Produtos.Remove(produtoToRemove);
+
+                // Recalcula o valor total
+                carrinhoViewModel.ValorTotal = CalcularValorTotal(carrinhoViewModel);
+
+                // Atualiza a sessão com a ViewModel atualizada
+                SalvarCarrinhoViewModel(carrinhoViewModel);
             }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", carrinhoDeCompra.UsuarioId);
-            return View(carrinhoDeCompra);
+
+            return RedirectToAction("Index");
         }
 
-        // GET: CarrinhoDeCompras/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        private CarrinhoViewModel ObterCarrinhoViewModel()
         {
-            if (id == null || _context.CarrinhoDeCompras == null)
-            {
-                return NotFound();
-            }
+            // Obtém a ViewModel da sessão
+            return HttpContext.Session.Get<CarrinhoViewModel>("CarrinhoViewModel") ?? new CarrinhoViewModel();
 
-            var carrinhoDeCompra = await _context.CarrinhoDeCompras.FindAsync(id);
-            if (carrinhoDeCompra == null)
-            {
-                return NotFound();
-            }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", carrinhoDeCompra.UsuarioId);
-            return View(carrinhoDeCompra);
         }
 
-        // POST: CarrinhoDeCompras/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,NomeProduto,QuantidadeItens,ValorTotal,UsuarioId")] CarrinhoDeCompra carrinhoDeCompra)
+        private void SalvarCarrinhoViewModel(CarrinhoViewModel carrinhoViewModel)
         {
-            if (id != carrinhoDeCompra.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(carrinhoDeCompra);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!CarrinhoDeCompraExists(carrinhoDeCompra.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", carrinhoDeCompra.UsuarioId);
-            return View(carrinhoDeCompra);
-        }
-
-        // GET: CarrinhoDeCompras/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null || _context.CarrinhoDeCompras == null)
-            {
-                return NotFound();
-            }
-
-            var carrinhoDeCompra = await _context.CarrinhoDeCompras
-                .Include(c => c.Usuario)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (carrinhoDeCompra == null)
-            {
-                return NotFound();
-            }
-
-            return View(carrinhoDeCompra);
-        }
-
-        // POST: CarrinhoDeCompras/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            if (_context.CarrinhoDeCompras == null)
-            {
-                return Problem("Entity set 'AppDbContext.CarrinhoDeCompras'  is null.");
-            }
-            var carrinhoDeCompra = await _context.CarrinhoDeCompras.FindAsync(id);
-            if (carrinhoDeCompra != null)
-            {
-                _context.CarrinhoDeCompras.Remove(carrinhoDeCompra);
-            }
-            
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool CarrinhoDeCompraExists(int id)
-        {
-          return _context.CarrinhoDeCompras.Any(e => e.Id == id);
+            // Salva a ViewModel na sessão
+            HttpContext.Session.Set("CarrinhoViewModel", carrinhoViewModel);
         }
     }
 }

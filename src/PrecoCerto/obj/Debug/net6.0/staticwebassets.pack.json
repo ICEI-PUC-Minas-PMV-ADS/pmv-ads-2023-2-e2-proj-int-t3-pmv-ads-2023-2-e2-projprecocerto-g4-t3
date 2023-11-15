@@ -97,6 +97,10 @@
       "PackagePath": "staticwebassets\\img\\favicon\\site.webmanifest"
     },
     {
+      "Id": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\log-in.png",
+      "PackagePath": "staticwebassets\\img\\log-in.png"
+    },
+    {
       "Id": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\logo\\LOGO 200.png",
       "PackagePath": "staticwebassets\\img\\logo\\LOGO 200.png"
     },
@@ -271,6 +275,10 @@
     {
       "Id": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\produtoId\\9.png",
       "PackagePath": "staticwebassets\\img\\produtoId\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\sign-up.png",
+      "PackagePath": "staticwebassets\\img\\sign-up.png"
     },
     {
       "Id": "C:\\Users\\simon\\source\\repos\\pmv-ads-2023\\src\\PrecoCerto\\wwwroot\\img\\supermecados\\BH.png",

@@ -5,6 +5,7 @@
 }
 
 <!---------------------------------------------------------------- Cabeçalho --------------------------------------------------------------------->
+
 <section class="breadscrumb-section pt-0">
     <div class="container-fluid-lg">
         <div class="row">
@@ -32,58 +33,105 @@
         </div>
     </div>
 </section>
+
 <!------------------------------------------------------------------------------------------------------------------------------------------------>
 
-<div class="d-flex flex-column wrapper">
-    <main class="flex-fill">
-        <div class="container-fluid-lg">
-            <div class="row justify-content-center">
-                <div class="col-sm-10 col-md-8 col-lg-6">
-                    <form class="mt-3" asp-action="Create">
-                        <h2 class="mb-3">Informe seus dados</h2>
+<!---------------------------------------------------------------- Cadastro ---------------------------------------------------------------------->
 
-                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                        <div class="form-group mb-3">
-                            <label asp-for="Nome" class="control-label"></label>
-                            <input asp-for="Nome" class="form-control" />
-                            <span asp-validation-for="Nome" class="text-danger"></span>
-                        </div>
-                        <div class="form-group mb-3">
-                            <label asp-for="Email" class="control-label"></label>
-                            <input asp-for="Email" class="form-control" />
-                            <span asp-validation-for="Email" class="text-danger"></span>
-                        </div>
-                        <div class="form-group mb-3">
-                            <label asp-for="Senha" class="control-label"></label>
-                            <input asp-for="Senha" class="form-control" />
-                            <span asp-validation-for="Senha" class="text-danger"></span>
-                        </div>
-                        <div class="form-group mb-3">
-                            <label asp-for="Endereco" class="control-label"></label>
-                            <input asp-for="Endereco" class="form-control" />
-                            <span asp-validation-for="Endereco" class="text-danger"></span>
-                        </div>
-                        <div class="form-group mb-3">
-                            <label asp-for="Telefone" class="control-label"></label>
-                            <input asp-for="Telefone" class="form-control" />
-                            <span asp-validation-for="Telefone" class="text-danger"></span>
-                        </div>
-                        <div class="form-check mb-3">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Desejo receber informações sobre promoções.
-                            </label>
-                        </div>
-                        <div class="form-group mb-3">
-                            <input type="submit" value="Criar meu cadastro" class="btn-log btn-success" />
-                        </div>
-                    </form>
+<section class="log-in-section section-b-space">
+    <div class="container-fluid w-100">
+        <div class="row">
+            <div class="col-xxl-6 col-xl-5 col-lg-6 d-lg-block d-none ms-auto">
+                <div class="image-contain">
+                    <img src="~/img/sign-up.png" class="img-fluid" alt="">
                 </div>
             </div>
-        </div>
-    </main>
-</div>
 
+            <div class="col-xxl-4 col-xl-5 col-lg-6 col-sm-8 mx-auto">
+                <div class="log-in-box">
+                    <div class="log-in-title">
+                        <h3> Bem-vindo ao Preço Certo </h3>
+                        <h4> Criar nova conta </h4>
+                    </div>
+
+                    <div class="input-box">
+                        <form asp-action="Create" class="row g-3">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="col-12">
+                                    <div class="form-floating theme-form-floating">
+                                        <input asp-for="Nome" class="form-control" id="fullname" placeholder="Nome" />
+                                        <label asp-for="Nome"></label>
+                                        <span asp-validation-for="Nome" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating theme-form-floating">
+                                        <input asp-for="Email" class="form-control" id="email" placeholder="Email" />
+                                        <label asp-for="Email"></label>
+                                        <span asp-validation-for="Email" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-floating theme-form-floating">
+                                        <input asp-for="Senha" class="form-control" id="password" placeholder="Senha" />
+                                        <label asp-for="Senha" class="control-label"></label>
+                                        <span asp-validation-for="Senha" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-floating theme-form-floating">
+                                        <input asp-for="Endereco" class="form-control" id="Endereco" placeholder="Endereço" />
+                                        <label asp-for="Endereco"></label>
+                                        <span asp-validation-for="Endereco" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-floating theme-form-floating">
+                                        <input asp-for="Telefone" class="form-control" id="Telefone" placeholder="Telefone" />
+                                        <label asp-for="Telefone"></label>
+                                        <span asp-validation-for="Telefone" class="text-danger"></span>
+                                    </div>
+                                </div>
+                           
+                                <div class="col-12">
+                                    <div class="forgot-box">
+                                        <div class="form-check ps-0 m-0 remember-box">
+                                            <input class="checkbox_animated check-box" type="checkbox" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Eu concordo com <span> Termos </span> de <span> Privacidade </span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            <div class="col-12">
+                                <input type="submit" value="Inscrever-se" class="btn btn-animation w-100" />
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="other-log-in">
+                        <h6></h6>
+                    </div>
+
+                    <div class="sign-up-box">
+                        <h4>
+                            Já tem uma conta?
+                        </h4>
+                        <a asp-area="" asp-controller="Usuarios" asp-action="Login">Conecte-se</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-7 col-xl-6 col-lg-6"></div>
+        </div>
+    </div>
+</section>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
