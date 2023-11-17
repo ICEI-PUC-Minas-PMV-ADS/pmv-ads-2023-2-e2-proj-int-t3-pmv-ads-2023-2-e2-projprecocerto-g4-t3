@@ -39,8 +39,12 @@ Para a organização e distribuição das tarefas do projeto, o grupo esta utili
 #### Backlog em 18/09/2023
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/74187849/984edce1-efe2-4bb6-a75e-3a3c90d2dc99) 
 
-#### Backlog em 22/03/2023
+#### Backlog em 22/10/2023
 ![imagem_2023-10-20_202537080](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/126032592/7fce12fc-f1fa-4571-b1cb-4a1de99d1e01)
+
+#### Backlog em 19/11/2023
+![Sprint 4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/e38bb8ff-b316-49e7-955a-64a8bd00de18)
+
 
 ### Ferramentas
 
@@ -56,24 +60,3 @@ Comunicação assíncrona                              | *WhatsApp*             
 Comunicação síncrona                                | *Microsoft Teams*            |
 Edição de código e texto                            | *Visual Studio Code*         |
 Servidor de hospedagem                              | *Github*                     |
-
-## Controle de Versão
-
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
-
-O projeto segue a seguinte convenção para o nome de branches:
-
-- `main`: versão estável já testada do software
-- `dev`: versão de desenvolvimento do software
-
-![git](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/74187849/c2f9b263-7836-4317-af04-615dfa715e0d)
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
