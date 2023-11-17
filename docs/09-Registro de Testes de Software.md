@@ -13,24 +13,27 @@
 <br>
 <br>
 
-![Cadastro_usuario](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/77369235/59e5f200-142a-4843-86c2-c761d03eba48)
+![Imagem do WhatsApp de 2023-11-17 à(s) 19 27 20_f84ed663](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/126032592/938e4c85-beb8-4532-bf88-ab5a157a1fc5)
+
 
 
  * Ao acessar nossa aplicação o usuário precisa se cadastrar em nosso sistema e como mostrado na tela acima, o usuário começa inserindo seus dados no formulário de cadastro após clicar no ícone de fazer login.
  * Como a tela mostra o usuario preenche os campos com seus dados e clica no botão verde. Caso o usuário tente acessar o sistema sem inser seus dados nossa validação exibirá a mensagem em cada campo como mostra a tela abaixo:
 <br>
    
-![Cadastro_validacao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/77369235/dd922b40-12cf-4875-98ba-8b59bb30a82f)
+![Imagem do WhatsApp de 2023-11-17 à(s) 17 50 23_28c6bb20](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/126032592/5b086ef8-c869-411a-9a47-93a55ea441e8)
+
 
  * Os campos na tela acima exibem uma mensagem em vermelho informando ao usuário que ele precisa inserir seus dados para criar o cadastro.
 <br>
 
-![Usuario_cadastrado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/77369235/e4fadcd8-16bb-427c-9deb-45220a69d682)
+
+![Imagem do WhatsApp de 2023-11-17 à(s) 19 24 50_32367589](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/126032592/9fc7297e-2448-459e-9431-edc555b099fb)
 
 * A tela acima mostra o usuário cadastrado com sucesso em nossa aplicação, bem como mostra os campos para editar, visualizar ou apagar o usuário que foi cadastrado. Recurso esse do administrador do sistema.
 <br>
 
-![Apagando_cadastro_usuario](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/77369235/66142e8d-8d42-4b08-bf0e-41f74070425d)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/126032592/843b290a-4b17-4eb2-88d5-e17206d1f504)
 
 
 * Uma vez que tenha um usuário cadastrado, nosso sistema também permite a exclusão de usuários. Como mostrado acima, é exibida uma mensagem de confirmação sobre essa ação.
@@ -48,21 +51,24 @@
 <br>
 
 
-![Login_usuario](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/77369235/b5cf9a85-e877-4300-a4c4-279f13ee4cae)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/126032592/e7a6a7fc-db81-418d-b926-c0de028745b6)
+
 
 * Após o usuário ter sido cadastrado na tela acima, ele poderá efetuar o login, ele irá preencher os campos com os dados fornecidos no cadastro que são e-mail e senha.
 <br>
 <br>
 
-![Login_validacao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/77369235/b2b0e82a-1c61-4c29-b5c3-ab68440018bb)
+![Imagem do WhatsApp de 2023-11-17 à(s) 17 50 07_38021055](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/126032592/bfb45a50-bfca-4ff2-8df2-5dadaf85c56a)
+
 
 * Como no formulário de cadastro, no de login caso o usuário tente logar sem inserir os dados, ele também receberá mensagens de aviso nos campos obrigatórios para que forneça seus dados.
 <br>
 <br>
 
-![Usuario_logado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/77369235/a00328ae-6ea5-49c4-9b1a-d1d38635d63f)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/126032592/c50485d4-f91e-471b-9fb2-6dd2f2806f40)
 
-* Após o usuário estar logado corretamente, inserindo suas informações de e-mail e senha, seu login será efetivado, e seu nome cadastrado aparecerá no topo da nossa pagina Home, como destacado pelo retângulo vermelho.
+
+* Após o usuário estar logado corretamente, inserindo suas informações de e-mail e senha, seu login será efetivado, e seu nome cadastrado aparecerá no topo da nossa pagina Home, como está destacado em vermelho.
 ## Avaliação
 
 Nessa etapa do nosso projeto, não foram apresentadas falhas na operação do cadastro de usuário e login, por se tratar de um recurso muito bem gerenciado pelo Entity framework.
