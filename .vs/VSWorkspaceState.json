@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\PrecoCerto",
+    "\\src\\PrecoCerto\\Views",
+    "\\src\\PrecoCerto\\Views\\Pedidos"
   ],
-  "SelectedNode": "\\PrecoCerto.sln",
+  "SelectedNode": "\\src\\PrecoCerto\\Views\\Pedidos\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

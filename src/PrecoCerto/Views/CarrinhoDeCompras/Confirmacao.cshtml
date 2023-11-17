@@ -1,0 +1,339 @@
+﻿@using PrecoCerto.Controllers;
+@model CarrinhoViewModel
+
+@{
+    ViewData["Title"] = "Confirmação";
+}
+
+<!---------------------------------------------------------------- Cabeçalho ------------------------------------------------------------------>
+<section class="breadscrumb-section pt-0">
+    <div class="container-fluid-lg">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadscrumb-contain">
+                    <h2>Carrinho</h2>
+                    <nav>
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item">
+                                <a asp-area="" asp-controller="Home" asp-action="Index">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                                        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li aria-current="page">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short icon-margin" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>Carrinho
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------------------------------------------------------- Sucesso ------------------------------------------------------------------->
+<section class="breadscrumb-section mt-5" id="orderSuccess" style="display:none;">
+    <div class="container-fluid-lg">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadscrumb-contain breadscrumb-order">
+                    <div class="order-box">
+                        <div class="order-image">
+                            <div class="checkmark">
+                                <svg class="star" height="30" viewBox="0 0 19 30" width="30" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.296.747c.532-.972 1.393-.973 1.925 0l2.665 4.872 4.876 2.66c.974.532.975 1.393 0 1.926l-4.875 2.666-2.664 4.876c-.53.972-1.39.973-1.924 0l-2.664-4.876L.76 10.206c-.972-.532-.973-1.393 0-1.925l4.872-2.66L8.296.746z">
+                                    </path>
+                                </svg>
+                                <svg class="star" height="30" viewBox="0 0 19 30" width="30" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.296.747c.532-.972 1.393-.973 1.925 0l2.665 4.872 4.876 2.66c.974.532.975 1.393 0 1.926l-4.875 2.666-2.664 4.876c-.53.972-1.39.973-1.924 0l-2.664-4.876L.76 10.206c-.972-.532-.973-1.393 0-1.925l4.872-2.66L8.296.746z">
+                                    </path>
+                                </svg>
+                                <svg class="star" height="30" viewBox="0 0 19 30" width="30" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.296.747c.532-.972 1.393-.973 1.925 0l2.665 4.872 4.876 2.66c.974.532.975 1.393 0 1.926l-4.875 2.666-2.664 4.876c-.53.972-1.39.973-1.924 0l-2.664-4.876L.76 10.206c-.972-.532-.973-1.393 0-1.925l4.872-2.66L8.296.746z">
+                                    </path>
+                                </svg>
+                                <svg class="star" height="30" viewBox="0 0 19 30" width="30" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.296.747c.532-.972 1.393-.973 1.925 0l2.665 4.872 4.876 2.66c.974.532.975 1.393 0 1.926l-4.875 2.666-2.664 4.876c-.53.972-1.39.973-1.924 0l-2.664-4.876L.76 10.206c-.972-.532-.973-1.393 0-1.925l4.872-2.66L8.296.746z">
+                                    </path>
+                                </svg>
+                                <svg class="star" height="30" viewBox="0 0 19 30" width="30" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.296.747c.532-.972 1.393-.973 1.925 0l2.665 4.872 4.876 2.66c.974.532.975 1.393 0 1.926l-4.875 2.666-2.664 4.876c-.53.972-1.39.973-1.924 0l-2.664-4.876L.76 10.206c-.972-.532-.973-1.393 0-1.925l4.872-2.66L8.296.746z">
+                                    </path>
+                                </svg>
+                                <svg class="checkmark__check" height="58" viewBox="0 0 48 15" width="49" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M47.248 3.9L43.906.667a2.428 2.428 0 0 0-3.344 0l-23.63 23.09-9.554-9.338a2.432 2.432 0 0 0-3.345 0L.692 17.654a2.236 2.236 0 0 0 .002 3.233l14.567 14.175c.926.894 2.42.894 3.342.01L47.248 7.128c.922-.89.922-2.34 0-3.23">
+                                    </path>
+                                </svg>
+                                <svg class="checkmark__background" height="120" viewBox="0 0 120 115" width="120" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M107.332 72.938c-1.798 5.557 4.564 15.334 1.21 19.96-3.387 4.674-14.646 1.605-19.298 5.003-4.61 3.368-5.163 15.074-10.695 16.878-5.344 1.743-12.628-7.35-18.545-7.35-5.922 0-13.206 9.088-18.543 7.345-5.538-1.804-6.09-13.515-10.696-16.877-4.657-3.398-15.91-.334-19.297-5.002-3.356-4.627 3.006-14.404 1.208-19.962C10.93 67.576 0 63.442 0 57.5c0-5.943 10.93-10.076 12.668-15.438 1.798-5.557-4.564-15.334-1.21-19.96 3.387-4.674 14.646-1.605 19.298-5.003C35.366 13.73 35.92 2.025 41.45.22c5.344-1.743 12.628 7.35 18.545 7.35 5.922 0 13.206-9.088 18.543-7.345 5.538 1.804 6.09 13.515 10.696 16.877 4.657 3.398 15.91.334 19.297 5.002 3.356 4.627-3.006 14.404-1.208 19.962C109.07 47.424 120 51.562 120 57.5c0 5.943-10.93 10.076-12.668 15.438z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="order-contain">
+                            <h3 class="theme-color">Sucesso do pedido</h3>
+                            <h5 class="text-content">O pedido foi realizado com sucesso</h5>
+                            <h6>ID da transação: 1708031724431131</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------------------------------------------------------- Confirmação ------------------------------------------------------------------->
+<section class="cart-section section-b-space">
+    <div class="container-fluid">
+        <div class="row g-sm-4 g-3">
+            <div class="col-xxl-9 col-lg-8">
+                <div class="cart-table order-table order-table-2">
+                    <div class="table-responsive">
+                        @if (Model != null && Model.Produtos.Any())
+                        {
+                        <table class="table mb-0">
+                            <tbody>
+                                @foreach (var produto in Model.Produtos)
+                                {
+                                <tr>
+                                    <td class="product-detail">
+                                        <div class="product border-0">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#view-@produto.Id" class="product-image">
+                                                <img src="data:@produto.ImagemMimeType;base64,@Convert.ToBase64String(produto.Imagem)" class="img-fluid blur-up lazyload" alt="">
+                                            </a>
+                                            <div class="product-detail">
+                                                <ul>
+                                                    
+                                                    <li class="name">
+                                                        <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#view-@produto.Id">@produto.Nome</a>
+                                                    </li>
+
+                                                    <li class="text-content">
+                                                        <span class="text-title">Vendido:</span> @produto.Tipo
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td class="price">
+                                        <h4 class="table-title text-content">Preço</h4>
+                                        <h6 class="theme-color">@produto.Preco.ToString("C")</h6>
+                                    </td>
+
+                                    <td class="quantity">
+                                        <h4 class="table-title text-content">Quantidade</h4>
+                                        <h4 class="text-title">01</h4>
+                                    </td>
+
+                                    <td class="subtotal">
+                                        <h4 class="table-title text-content">Total</h4>
+                                        <h5>@produto.Preco.ToString("C")</h5>
+                                    </td>
+                                </tr>
+                                }
+                            </tbody>
+                        </table>
+                        }
+                        else
+                        {
+                            <h5 class="log-in-title">Seu carrinho de compras está vazio.</h5>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-lg-4">
+                <div class="row g-4">
+                    <div class="col-lg-12 col-sm-6">
+                        <div class="summery-box">
+                            <div class="summery-header">
+                                <h3>Total do carrinho</h3>
+                            </div>
+
+                            <ul class="summery-contain">
+                                <li>
+                                    <h4>Subtotal: </h4>
+                                    <h4 class="price">@Model.ValorTotal.ToString("C")</h4>
+                                </li>
+
+                                <li>
+                                    <h4>Desconto:</h4>
+                                    <h4 class="price theme-color">R$ 0,00</h4>
+                                </li>
+                            </ul>
+
+                            <ul class="summery-total">
+                                <li class="list-total">
+                                    <h4>Total:</h4>
+                                    <h4 class="price">@Model.ValorTotal.ToString("C")</h4>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <div class="col-lg-12 col-sm-6">
+                            <div class="summery-box">
+                                <div class="summery-header d-block">
+                                    <h3>Endereço de entrega</h3>
+                                </div>
+
+                                <ul class="summery-contain pb-0 border-bottom-0">
+                                    <li class="d-block">
+                                        <h4 class="fw-500">@User.Identity.Name</h4>
+                                    </li>
+
+                                    <li class="pb-1">
+                                        <p class="text-content"><span class="text-title">Endereço: </span> @User.FindFirst("Endereco")?.Value</p>
+                                    </li>
+
+                                    <li class="pb-3">
+                                        <p class="text-content mb-0"><span class="text-title">Telefone: </span> @User.FindFirst("Telefone")?.Value</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-lg-12 col-sm-6">
+                            <div class="summery-box">
+                                <div class="summery-header d-block">
+                                    <h3 class ="text-danger">Você precisa fazer o login</h3>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    <div class="col-lg-12 col-sm-6">
+                        <div class="button-group cart-button">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0);" onclick="exibirSucessoPedido();" class="btn btn-animation proceed-btn fw-bold">
+                                        Finalizar compra
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a asp-area="" asp-controller="CarrinhoDeCompras" asp-action="Index" class="btn btn-animation-2 proceed-btn fw-bold">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z" />
+                                        </svg>
+                                        Voltar ao carrinho
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------------------------------------------------------- Modal ---------------------------------------------------------------------->
+@foreach (var produto in Model.Produtos)
+{
+    <div class="modal fade theme-modal view-modal" id="view-@produto.Id" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-sm-down">
+            <div class="modal-content">
+                <div class="modal-header p-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row g-sm-4 g-2">
+                        <div class="col-lg-6">
+                            <div class="slider-image">
+                                <img src="data:@produto.ModalImagemMimeType;base64,@Convert.ToBase64String(produto.ModalImagem)" class="img-fluid blur-up lazyload" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="right-sidebar-modal">
+                                <h4 class="title-name">@produto.Nome</h4>
+                                <h4 class="price">@produto.Preco.ToString("C")</h4>
+                                <div class="product-rating">
+
+                                    <ul class="rating">
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-warning" viewBox="0 0 16 16">
+                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                        </li>
+                                        <li>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star text-warning" viewBox="0 0 16 16">
+                                                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                                            </svg>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="product-detail">
+                                    <h4>Detalhes do produto:</h4>
+                                    <p>
+                                        @produto.Descricao
+                                    </p>
+                                </div>
+
+                                <ul class="brand-list">
+                                    <li>
+                                        <div class="brand-box">
+                                            <h5>Vendido por:</h5>
+                                            <h6>@produto.Tipo</h6>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="brand-box">
+                                            <h5>Marca:</h5>
+                                            <h6>@produto.Marca</h6>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="brand-box">
+                                            <h5>Tipo de Produto:</h5>
+                                            <h6>@produto.Setor</h6>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="brand-box">
+                                            <h5>Código do produto:</h5>
+                                            <h6>@produto.Id</h6>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

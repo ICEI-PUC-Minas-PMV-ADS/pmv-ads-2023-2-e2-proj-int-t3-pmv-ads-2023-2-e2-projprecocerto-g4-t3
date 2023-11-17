@@ -365,3 +365,12 @@ $(".close_button").click(function () {
         $(this).closest(".product-box-contain").remove();
     });
 });
+
+/*=====================
+   Display Success
+==========================*/
+function exibirSucessoPedido() {
+    // Seu código para exibir o bloco de sucesso
+    document.getElementById("orderSuccess").style.display = "block";
+}
+

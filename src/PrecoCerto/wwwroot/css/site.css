@@ -999,6 +999,7 @@ body {
     color: #4a5568;
     display: block
 }
+
 .btn-animation {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1024,7 +1025,37 @@ body {
     z-index: 0
 }
 
+.btn-animation-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    background: transparent;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    background: #6c757d;
+    background: -webkit-gradient(linear, left top, right top, from(#6c757d), to(#8892a3));
+    background: linear-gradient(90deg, #6c757d 0%, #8892a3 100%);
+    border: none;
+    z-index: 0
+}
+
     .btn-animation i {
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease
+    }
+
+    .btn-animation-2 i {
         -webkit-transition: 0.3s ease;
         transition: 0.3s ease
     }
@@ -1045,7 +1076,27 @@ body {
         transition: all 0.3s ease
     }
 
+.btn-animation-2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background: #6b7279;
+    background: -webkit-gradient(linear, left top, right top, from(#6b7279), to(#8b96a7));
+    background: linear-gradient(90deg, #6b7279 0%, #8b96a7 100%);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease
+}
+
     .btn-animation:hover {
+        color: #fff
+    }
+
+    .btn-animation-2:hover {
         color: #fff
     }
 
@@ -1054,7 +1105,17 @@ body {
             transform: translateX(3px)
         }
 
+        .btn-animation-2:hover i {
+            -webkit-transform: translateX(3px);
+            transform: translateX(3px)
+        }
+
         .btn-animation:hover::after {
+            top: 0;
+            height: 100%
+        }
+
+        .btn-animation-2:hover::after {
             top: 0;
             height: 100%
         }
@@ -6443,56 +6504,55 @@ span {
             font-weight: 500
         }
 
+body {
+    margin-bottom: 80px; /* Ajuste conforme a altura do seu rodapé */
+}
+
 footer {
     background-color: #f8f8f8;
-    position: relative;
-    z-index: 0
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
 }
 
-    footer::after {
+    footer::after,
+    footer::before {
         content: "";
-        position: absolute;
+        position: fixed;
         width: 30%;
         height: 100%;
-        top: 0;
+        z-index: -1;
+    }
+
+    footer::after {
         left: 0;
         background-repeat: no-repeat;
-        z-index: -1
+    }
+
+    footer::before {
+        right: 0;
+        background-repeat: no-repeat;
     }
 
 @media (max-width: 1199px) {
-    footer::after {
-        content: none
-    }
-}
-
-footer:before {
-    content: "";
-    position: absolute;
-    width: 30%;
-    height: 100%;
-    bottom: 0;
-    right: 0;
-    background-repeat: no-repeat;
-    z-index: -1
-}
-
-@media (max-width: 1199px) {
-    footer:before {
-        content: none
+    footer::after,
+    footer::before {
+        content: none;
     }
 }
 
 footer .main-footer {
-    border-top: 1px dashed #c1c1c1
+    border-top: 1px dashed #c1c1c1;
 }
 
 @media (max-width: 767px) {
     footer .main-footer {
         border: none;
-        padding-top: 0
+        padding-top: 0;
     }
 }
+
 
 footer .main-footer .footer-theme .footer-theme-contain {
     margin-top: calc(13px + (20 - 13) * ((100vw - 320px) / (1920 - 320)))
@@ -29238,5 +29298,3 @@ header .offcanvas-backdrop {
                         margin-left: 5px;
                         font-weight: 400
                     }
-
-.

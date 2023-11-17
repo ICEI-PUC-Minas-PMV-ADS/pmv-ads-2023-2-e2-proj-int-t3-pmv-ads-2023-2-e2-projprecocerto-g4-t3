@@ -5,6 +5,8 @@ namespace PrecoCerto.Controllers
 {
     public class CarrinhoViewModel
     {
+        public Dictionary<string, double> ValorTotalPorSupermercado { get; set; } = new Dictionary<string, double>();
+
         // Coleção de itens no carrinho de compras
         public IEnumerable<CarrinhoDeCompra> CarrinhoDeCompras { get; set; }
 

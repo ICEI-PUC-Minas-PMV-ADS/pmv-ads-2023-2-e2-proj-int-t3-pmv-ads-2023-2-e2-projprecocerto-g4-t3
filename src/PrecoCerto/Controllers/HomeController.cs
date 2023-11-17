@@ -32,6 +32,11 @@ namespace PrecoCerto.Controllers
             return View(produtos);
         }
 
+        public IActionResult Cupons()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

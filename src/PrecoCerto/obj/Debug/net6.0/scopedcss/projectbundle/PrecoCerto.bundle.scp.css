@@ -41,7 +41,7 @@ button.accept-policy[b-5iv2lzbtyv] {
 }
 
 .footer[b-5iv2lzbtyv] {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   white-space: nowrap;

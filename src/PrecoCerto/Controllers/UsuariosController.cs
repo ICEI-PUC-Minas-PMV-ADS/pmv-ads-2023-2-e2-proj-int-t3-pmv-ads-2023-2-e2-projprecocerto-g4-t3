@@ -51,7 +51,9 @@ namespace PrecoCerto.Controllers
         {
             new Claim(ClaimTypes.Name, dados.Nome),
             new Claim(ClaimTypes.NameIdentifier, dados.Id.ToString()),
-            new Claim(ClaimTypes.Email, dados.Email), // Adiciona o e-mail como uma reivindicação
+            new Claim(ClaimTypes.Email, dados.Email),
+            new Claim("Endereco", dados.Endereco), // Adiciona o endereço como uma reivindicação personalizada
+            new Claim("Telefone", dados.Telefone), // Adiciona o telefone como uma reivindicação personalizada
         };
 
                 var usuarioIdentity = new ClaimsIdentity(claims, "login");
@@ -75,6 +77,7 @@ namespace PrecoCerto.Controllers
 
             return View();
         }
+
 
 
         public async Task<IActionResult> Logout()
