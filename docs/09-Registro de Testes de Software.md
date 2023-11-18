@@ -109,6 +109,14 @@
 
 * Caso haja necessidade, ou estiver disponível o cliente pode encontrar cupons por dois caminhos, o primeiro caminho é o aprensentado na primeira imagem, pelo filtro no campo superior esquerdo com o título "Você falou, cupom?" e o segundo caminho é na parte inferior do template, como apresentado na sengunda imagem.
 
+![WhatsApp Image 2023-11-18 at 15 02 42](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/d59ef70c-926c-450f-808e-6cb3e3f1efa3)
+
+* O usuário pode acompanhar seu pedido pelo campo denominado Meus Pedidos, contendo todas as informações do mesmo.
+
+![WhatsApp Image 2023-11-18 at 15 02 43](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/8190e67b-1691-40be-9e56-7075d441a996)
+
+* Já em minhas listas o usuário pode ver suas listas, novas e antigas, e se necessário efetuar uma nova compra de forma facil e rápida.
+
 ## Extra
 ## Teste de responsividade
 Testamos a aplicação em plataformas diferentes, todos os testes de responsividade foram concluídos sem bugs.
