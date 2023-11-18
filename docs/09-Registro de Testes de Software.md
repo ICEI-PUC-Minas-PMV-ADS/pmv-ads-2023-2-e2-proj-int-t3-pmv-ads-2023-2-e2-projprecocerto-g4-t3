@@ -102,7 +102,7 @@
 
 ![WhatsApp Image 2023-11-17 at 19 01 56](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/41727874-a023-4232-9a59-f296376add49)
 
-* Ao finalizar sua compra, o usuário recebe o número de ID do seu produto.
+* Ao finalizar sua compra, o usuário recebe o número de ID do seu pedido.
 
 ![WhatsApp Image 2023-11-17 at 19 16 39](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/5f317b17-a0eb-423b-81d6-e2678d2735e6)
 ![WhatsApp Image 2023-11-17 at 19 17 15](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/c43772af-0ac9-48bc-b851-bf50765804ae)
