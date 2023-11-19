@@ -30,13 +30,27 @@ Projeto que está sendo desenvolvido, é uma aplicação interativa para busca d
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Para acessar a aplicação Preço Certo, siga os passos descritos abaixo:
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+* Link de acesso
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
+Para abrir a aplicação acesse o link logo abaixo
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+https://precocerto.azurewebsites.net/
+
+* Usuário de Teste 
+
+Foi criado a seguinte credencial de usuário teste para possibilitar os testes e o acesso ao sistema, ou se você preferir pode esta fazendo seu próprio cadastro:
+
+Email: teste@teste.com
+
+Senha: 123456
+
+* Instruções de acesso
+
+  - Abra o navegador de sua preferência;
+  - Insira o link de acesso a aplicação Preço Certo;
+  - Pressione "Enter" para carregar a página, em seguida você será redirecionado para a home page da aplicação;
 
 # Documentação
 
