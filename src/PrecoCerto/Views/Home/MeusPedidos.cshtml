@@ -1,0 +1,174 @@
+﻿@{
+    ViewData["Title"] = "Meus Pedidos";
+}
+
+<!---------------------------------------------------------------- Cabeçalho ------------------------------------------------------------------>
+<section class="breadscrumb-section pt-0">
+    <div class="container-fluid-lg">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadscrumb-contain">
+                    <h2>Meus Pedidos</h2>
+                    <nav>
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item">
+                                <a asp-area="" asp-controller="Home" asp-action="Index">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                                        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li aria-current="page">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short icon-margin" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>Meus Pedidos
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------------------------------------------------------- Pedidos ------------------------------------------------------------------>
+<section class="order-detail">
+    <div class="container-fluid">
+        <div class="row g-sm-4 g-3">
+            <div class="col-xxl-3 col-xl-4 col-lg-6">
+                <div class="order-image">
+                    <img src="~/img/logo/LOGO 200.png" class="img-fluid blur-up lazyload" alt="">
+                </div>
+            </div>
+
+            <div class="col-xxl-9 col-xl-8 col-lg-6">
+                <div class="row g-sm-4 g-3">
+                    <div class="col-xl-6 col-sm-6">
+                        <div class="order-details-contain">
+                            <div class="order-tracking-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-seam text-content" viewBox="0 0 14 18">
+                                    <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
+                                </svg>
+                            </div>
+
+                            <div class="order-details-name">
+                                <h5 class="text-content">Código do pedido</h5>
+                                <h2 class="theme-color">1708031724431131</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-sm-6">
+                        <div class="order-details-contain">
+                            <div class="order-tracking-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-info-circle text-content" viewBox="0 0 15 18">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                </svg>
+                            </div>
+
+                            <div class="order-details-name">
+                                <h5 class="text-content">Informações da compra</h5>
+                                <h2 class="theme-color">Compras Supermercado BH</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-sm-6">
+                        <div class="order-details-contain">
+                            <div class="order-tracking-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill text-content" viewBox="0 0 14 18">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                </svg>
+                            </div>
+
+                            <div class="order-details-name">
+                                <h5 class="text-content">De</h5>
+                                <h4>Av. Afonso Vaz de Melo, 465 - Barreiro, Belo Horizonte - MG, 30640-070.</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-sm-6">
+                        <div class="order-details-contain">
+                            <div class="order-tracking-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill text-content" viewBox="0 0 14 18">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                </svg>
+                            </div>
+
+                            <div class="order-details-name">
+                                <h5 class="text-content">Destino</h5>
+                                <h4>Rua Luiz Carlos Ribeiro, 300-414 - Teixeira Dias</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-sm-6">
+                        <div class="order-details-contain">
+                            <div class="order-tracking-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-stopwatch text-content" viewBox="0 0 14 18">
+                                    <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z" />
+                                    <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z" />
+                                </svg>
+                            </div>
+
+                            <div class="order-details-name">
+                                <h5 class="text-content"> Previsão de entrega </h5>
+                                <h4>Hoje, 12:00 - 14:00</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 overflow-hidden">
+                        <ol class="progtrckr">
+                            <li class="progtrckr-done">
+                                <h5>Pedido confirmado</h5>
+                            </li>
+                            <li class="progtrckr-done">
+                                <h5>Separando produtos</h5>
+                            </li>
+                            <li class="progtrckr-done">
+                                <h5>Saiu para entrega</h5>
+                            </li>
+                            <li class="progtrckr-done">
+                                <h5>Pedido entregue</h5>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="order-table-section section-b-space">
+    <div class="container-fluid-lg">
+        <div class="row">
+            <div class="col-12">
+                <div class="table-responsive">
+                    <table class="table order-tab-table">
+                        <thead>
+                            <tr>
+                                <th>Descrição</th>
+                                <th>Data</th>
+                                <th>Horárío</th>
+                                <th>Localização</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> Pedido entregue </td>
+                                <td>18 / 11 / 2023</td>
+                                <td>13:00</td>
+                                <td>Teixeira Dias</td>
+                            </tr>
+                            <tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

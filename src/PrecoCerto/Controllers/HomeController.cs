@@ -32,6 +32,25 @@ namespace PrecoCerto.Controllers
             return View(produtos);
         }
 
+        public async Task<IActionResult> MinhasListas([FromQuery] string Busca)
+        {
+            IQueryable<Produto> produtosQuery = _appDbContext.produtos;
+
+            if (!string.IsNullOrEmpty(Busca))
+            {
+                produtosQuery = produtosQuery.Where(p => p.Nome.ToUpper().Contains(Busca.ToUpper()));
+            }
+
+            var produtos = await produtosQuery.ToListAsync();
+
+            return View(produtos);
+        }
+
+        public IActionResult MeusPedidos()
+        {
+            return View();
+        }
+
         public IActionResult Cupons()
         {
             return View();

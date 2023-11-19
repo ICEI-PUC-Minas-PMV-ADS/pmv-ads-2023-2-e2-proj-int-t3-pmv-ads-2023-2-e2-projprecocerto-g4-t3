@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos_VS\\pmv-ads-2023\\src\\PrecoCerto\\PrecoCerto.csproj": {}
+    "D:\\Projetos_VS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\PrecoCerto.csproj": {}
   },
   "projects": {
-    "D:\\Projetos_VS\\pmv-ads-2023\\src\\PrecoCerto\\PrecoCerto.csproj": {
+    "D:\\Projetos_VS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\PrecoCerto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos_VS\\pmv-ads-2023\\src\\PrecoCerto\\PrecoCerto.csproj",
+        "projectUniqueName": "D:\\Projetos_VS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\PrecoCerto.csproj",
         "projectName": "PrecoCerto",
-        "projectPath": "D:\\Projetos_VS\\pmv-ads-2023\\src\\PrecoCerto\\PrecoCerto.csproj",
+        "projectPath": "D:\\Projetos_VS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\PrecoCerto.csproj",
         "packagesPath": "C:\\Users\\phgds\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos_VS\\pmv-ads-2023\\src\\PrecoCerto\\obj\\",
+        "outputPath": "D:\\Projetos_VS\\pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3\\src\\PrecoCerto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\phgds\\AppData\\Roaming\\NuGet\\NuGet.Config",
