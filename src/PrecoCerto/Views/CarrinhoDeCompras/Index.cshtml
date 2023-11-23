@@ -47,7 +47,7 @@
                               <tbody>
                                 @foreach (var produto in Model.Produtos)
                                 {
-                                    <tr class="product-box-contain">
+                                    <tr class="product-box-contain cart-item">
                                         <td class="product-detail">
                                             <div class="product border-0">
                                                 <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#view-@produto.Id" class="product-image">
@@ -311,3 +311,8 @@
         </div>
     </div>
 }
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<!--script -->
+<script src="~/js/cart-script.js"></script>
