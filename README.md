@@ -36,8 +36,7 @@ Para acessar a aplicação Preço Certo, siga os passos descritos abaixo:
 
 Para abrir a aplicação acesse o link logo abaixo
 
-https://precocerto.azurewebsites.net/
-
+https://precocerto20231125130233.azurewebsites.net/
 * Usuário de Teste 
 
 Foi criado a seguinte credencial de usuário teste para possibilitar os testes e o acesso ao sistema, ou se você preferir pode esta fazendo seu próprio cadastro:
