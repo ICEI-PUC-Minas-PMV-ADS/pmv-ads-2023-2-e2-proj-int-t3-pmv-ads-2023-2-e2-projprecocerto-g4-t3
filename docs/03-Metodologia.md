@@ -45,6 +45,9 @@ Para a organização e distribuição das tarefas do projeto, o grupo esta utili
 #### Backlog em 19/11/2023
 ![Sprint 4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/e38bb8ff-b316-49e7-955a-64a8bd00de18)
 
+#### Backlog em 30/11/2023
+![Done Sprint 5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/128644865/d58aee23-ae86-4caf-85a6-78d127a78864)
+
 
 ### Ferramentas
 
