@@ -16,7 +16,9 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-
 
 ## Identidade Visual (Marca, Design)
 
-![WhatsApp Image 2023-08-26 at 13 17 27](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/77369235/f3324962-1b9a-48c3-b8e0-5cdeb4a9002c)
+ <p align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t3-pmv-ads-2023-2-e2-projprecocerto-g4-t3/assets/74187849/f0c25afc-ee3a-4832-bea8-c8f1f6faab2b" alt="LOGO 200">
+</p>
 
 
 
